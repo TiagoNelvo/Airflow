@@ -1,0 +1,147 @@
+[2024-05-03T20:02:06.991-0300] {processor.py:161} INFO - Started process (PID=852) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:02:06.992-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:02:06.994-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:02:06.993-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:02:07.019-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:02:07.036-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:02:07.036-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:02:07.063-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:02:07.063-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-10-18 00:00:00+00:00, run_after=2023-10-19 00:00:00+00:00
+[2024-05-03T20:02:07.135-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.149 seconds
+[2024-05-03T20:02:40.765-0300] {processor.py:161} INFO - Started process (PID=1028) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:02:40.766-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:02:40.768-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:02:40.768-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:02:40.807-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:02:40.980-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:02:40.980-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:02:41.013-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:02:41.013-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-10-22 00:00:00+00:00, run_after=2023-10-23 00:00:00+00:00
+[2024-05-03T20:02:41.108-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.349 seconds
+[2024-05-03T20:03:19.498-0300] {processor.py:161} INFO - Started process (PID=1227) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:03:19.499-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:03:19.501-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:03:19.500-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:03:19.529-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:03:19.561-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:03:19.560-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:03:19.587-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:03:19.587-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-10-26 00:00:00+00:00, run_after=2023-10-27 00:00:00+00:00
+[2024-05-03T20:03:19.647-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.154 seconds
+[2024-05-03T20:03:59.628-0300] {processor.py:161} INFO - Started process (PID=1427) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:03:59.629-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:03:59.630-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:03:59.630-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:03:59.654-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:03:59.695-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:03:59.695-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:03:59.723-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:03:59.723-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-10-30 00:00:00+00:00, run_after=2023-10-31 00:00:00+00:00
+[2024-05-03T20:03:59.789-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.166 seconds
+[2024-05-03T20:04:35.186-0300] {processor.py:161} INFO - Started process (PID=1610) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:04:35.187-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:04:35.189-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:04:35.188-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:04:35.213-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:04:35.240-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:04:35.239-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:04:35.265-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:04:35.265-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-11-03 00:00:00+00:00, run_after=2023-11-04 00:00:00+00:00
+[2024-05-03T20:04:35.327-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.146 seconds
+[2024-05-03T20:05:19.920-0300] {processor.py:161} INFO - Started process (PID=1833) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:05:19.921-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:05:19.923-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:05:19.923-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:05:19.945-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:05:19.971-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:05:19.970-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:05:19.995-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:05:19.995-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-11-08 00:00:00+00:00, run_after=2023-11-09 00:00:00+00:00
+[2024-05-03T20:05:20.065-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.150 seconds
+[2024-05-03T20:05:58.382-0300] {processor.py:161} INFO - Started process (PID=2021) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:05:58.392-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:05:58.396-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:05:58.396-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:05:58.448-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:05:58.538-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:05:58.537-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:05:58.623-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:05:58.622-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-11-11 00:00:00+00:00, run_after=2023-11-12 00:00:00+00:00
+[2024-05-03T20:05:58.762-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.393 seconds
+[2024-05-03T20:06:36.841-0300] {processor.py:161} INFO - Started process (PID=2209) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:06:36.842-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:06:36.844-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:06:36.844-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:06:36.880-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:06:36.938-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:06:36.937-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:06:36.977-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:06:36.976-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-11-14 00:00:00+00:00, run_after=2023-11-15 00:00:00+00:00
+[2024-05-03T20:06:37.082-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.249 seconds
+[2024-05-03T20:52:30.225-0300] {processor.py:161} INFO - Started process (PID=13081) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:52:30.226-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:52:30.227-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:52:30.227-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:52:30.246-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:52:30.258-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:52:30.258-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:52:30.280-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:52:30.280-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-11-17 00:00:00+00:00, run_after=2023-11-18 00:00:00+00:00
+[2024-05-03T20:52:30.331-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.111 seconds
+[2024-05-03T20:53:06.026-0300] {processor.py:161} INFO - Started process (PID=13268) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:53:06.027-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:53:06.029-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:53:06.028-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:53:06.050-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:53:06.150-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:53:06.150-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:53:06.172-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:53:06.172-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-11-21 00:00:00+00:00, run_after=2023-11-22 00:00:00+00:00
+[2024-05-03T20:53:06.224-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.204 seconds
+[2024-05-03T20:53:37.246-0300] {processor.py:161} INFO - Started process (PID=13432) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:53:37.247-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:53:37.249-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:53:37.248-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:53:37.268-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:53:37.291-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:53:37.291-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:53:37.312-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:53:37.311-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-11-25 00:00:00+00:00, run_after=2023-11-26 00:00:00+00:00
+[2024-05-03T20:53:37.359-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.117 seconds
+[2024-05-03T20:54:09.345-0300] {processor.py:161} INFO - Started process (PID=13599) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:54:09.346-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:54:09.348-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:54:09.347-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:54:09.370-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:54:09.393-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:54:09.393-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:54:09.415-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:54:09.415-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-11-29 00:00:00+00:00, run_after=2023-11-30 00:00:00+00:00
+[2024-05-03T20:54:09.463-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.124 seconds
+[2024-05-03T20:54:39.900-0300] {processor.py:161} INFO - Started process (PID=13760) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:54:39.901-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:54:39.902-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:54:39.902-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:54:39.921-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:54:39.944-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:54:39.944-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:54:39.967-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:54:39.967-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-12-03 00:00:00+00:00, run_after=2023-12-04 00:00:00+00:00
+[2024-05-03T20:54:40.020-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.124 seconds
+[2024-05-03T20:55:13.546-0300] {processor.py:161} INFO - Started process (PID=13946) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:55:13.547-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:55:13.549-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:55:13.549-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:55:13.569-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:55:13.594-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:55:13.593-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:55:13.615-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:55:13.615-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-12-07 00:00:00+00:00, run_after=2023-12-08 00:00:00+00:00
+[2024-05-03T20:55:13.664-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.123 seconds
+[2024-05-03T20:56:09.169-0300] {processor.py:161} INFO - Started process (PID=14196) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:56:09.170-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:56:09.172-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:56:09.172-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:56:09.198-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:56:09.228-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:56:09.228-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:56:09.253-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:56:09.252-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-12-09 00:00:00+00:00, run_after=2023-12-10 00:00:00+00:00
+[2024-05-03T20:56:09.314-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.151 seconds
+[2024-05-03T20:56:41.592-0300] {processor.py:161} INFO - Started process (PID=14370) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:56:41.593-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:56:41.594-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:56:41.594-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:56:41.616-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:56:41.641-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:56:41.641-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:56:41.664-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:56:41.664-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-12-13 00:00:00+00:00, run_after=2023-12-14 00:00:00+00:00
+[2024-05-03T20:56:41.721-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.133 seconds
+[2024-05-03T20:57:16.704-0300] {processor.py:161} INFO - Started process (PID=14558) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:57:16.705-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:57:16.707-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:57:16.707-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:57:16.725-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:57:16.757-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:57:16.757-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:57:16.788-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:57:16.787-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-12-18 00:00:00+00:00, run_after=2023-12-19 00:00:00+00:00
+[2024-05-03T20:57:16.898-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.198 seconds
+[2024-05-03T20:57:47.997-0300] {processor.py:161} INFO - Started process (PID=14729) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:57:47.998-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:57:48.000-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:57:48.000-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:57:48.023-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:57:48.050-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:57:48.050-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:57:48.077-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:57:48.077-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-12-22 00:00:00+00:00, run_after=2023-12-23 00:00:00+00:00
+[2024-05-03T20:57:48.143-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.150 seconds
+[2024-05-03T20:58:24.694-0300] {processor.py:161} INFO - Started process (PID=14920) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:58:24.696-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:58:24.697-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:58:24.697-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:58:24.723-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:58:24.753-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:58:24.752-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:58:24.787-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:58:24.786-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-12-27 00:00:00+00:00, run_after=2023-12-28 00:00:00+00:00
+[2024-05-03T20:58:24.862-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.174 seconds
+[2024-05-03T20:58:59.692-0300] {processor.py:161} INFO - Started process (PID=15103) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:58:59.693-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:58:59.695-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:58:59.695-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:58:59.719-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:58:59.746-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:58:59.746-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:58:59.770-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:58:59.770-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2023-12-31 00:00:00+00:00, run_after=2024-01-01 00:00:00+00:00
+[2024-05-03T20:58:59.831-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.143 seconds
+[2024-05-03T20:59:32.071-0300] {processor.py:161} INFO - Started process (PID=15272) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:59:32.072-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py for tasks to queue
+[2024-05-03T20:59:32.073-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:59:32.073-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:59:32.092-0300] {processor.py:840} INFO - DAG(s) 'a_primeira_DAG_v1' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py
+[2024-05-03T20:59:32.117-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:59:32.117-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T20:59:32.143-0300] {logging_mixin.py:188} INFO - [2024-05-03T20:59:32.143-0300] {dag.py:3954} INFO - Setting next_dagrun for a_primeira_DAG_v1 to 2024-01-04 00:00:00+00:00, run_after=2024-01-05 00:00:00+00:00
+[2024-05-03T20:59:32.200-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py took 0.133 seconds

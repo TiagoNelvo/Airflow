@@ -1,0 +1,32 @@
+[2024-05-01T18:43:22.217-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-01T18:43:22.253-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_exemplo.gera_arquivo manual__2024-05-01T21:43:19.540849+00:00 [queued]>
+[2024-05-01T18:43:22.290-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_exemplo.gera_arquivo manual__2024-05-01T21:43:19.540849+00:00 [queued]>
+[2024-05-01T18:43:22.291-0300] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-05-01T18:43:22.357-0300] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): gera_arquivo> on 2024-05-01 21:43:19.540849+00:00
+[2024-05-01T18:43:22.361-0300] {standard_task_runner.py:63} INFO - Started process 6069 to run task
+[2024-05-01T18:43:22.364-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dag_exemplo', 'gera_arquivo', 'manual__2024-05-01T21:43:19.540849+00:00', '--job-id', '165', '--raw', '--subdir', 'DAGS_FOLDER/dag_exemplo.py', '--cfg-path', '/tmp/tmpm_gvpg9y']
+[2024-05-01T18:43:22.366-0300] {standard_task_runner.py:91} INFO - Job 165: Subtask gera_arquivo
+[2024-05-01T18:43:22.484-0300] {task_command.py:426} INFO - Running <TaskInstance: dag_exemplo.gera_arquivo manual__2024-05-01T21:43:19.540849+00:00 [running]> on host PC-Tilto.
+[2024-05-01T18:43:22.673-0300] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dag_exemplo' AIRFLOW_CTX_TASK_ID='gera_arquivo' AIRFLOW_CTX_EXECUTION_DATE='2024-05-01T21:43:19.540849+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-01T21:43:19.540849+00:00'
+[2024-05-01T18:43:22.675-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-01T18:43:22.687-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-01T18:43:22.688-0300] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py", line 11, in gera_arquivo
+    with open(AIRFLOW_HOME + "data/arquivo.txt", "wb"):
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Users/Tilto/Desktop/Work/Airflowdata/arquivo.txt'
+[2024-05-01T18:43:22.709-0300] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=dag_exemplo, task_id=gera_arquivo, execution_date=20240501T214319, start_date=20240501T214322, end_date=20240501T214322
+[2024-05-01T18:43:22.749-0300] {standard_task_runner.py:110} ERROR - Failed to execute job 165 for task gera_arquivo ([Errno 2] No such file or directory: '/mnt/c/Users/Tilto/Desktop/Work/Airflowdata/arquivo.txt'; 6069)
+[2024-05-01T18:43:22.778-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-01T18:43:22.806-0300] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-01T18:43:22.835-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

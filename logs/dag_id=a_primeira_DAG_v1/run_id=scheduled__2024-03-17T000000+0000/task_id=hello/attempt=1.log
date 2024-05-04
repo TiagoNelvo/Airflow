@@ -1,0 +1,51 @@
+[2024-05-03T21:22:11.547-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-03T21:22:11.573-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: a_primeira_DAG_v1.hello scheduled__2024-03-17T00:00:00+00:00 [queued]>
+[2024-05-03T21:22:11.589-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: a_primeira_DAG_v1.hello scheduled__2024-03-17T00:00:00+00:00 [queued]>
+[2024-05-03T21:22:11.589-0300] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-05-03T21:22:11.638-0300] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): hello> on 2024-03-17 00:00:00+00:00
+[2024-05-03T21:22:11.641-0300] {standard_task_runner.py:63} INFO - Started process 21486 to run task
+[2024-05-03T21:22:11.643-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'a_primeira_DAG_v1', 'hello', 'scheduled__2024-03-17T00:00:00+00:00', '--job-id', '921', '--raw', '--subdir', 'DAGS_FOLDER/primeira_dagv1.py', '--cfg-path', '/tmp/tmp3o50j3ok']
+[2024-05-03T21:22:11.645-0300] {standard_task_runner.py:91} INFO - Job 921: Subtask hello
+[2024-05-03T21:22:11.831-0300] {task_command.py:426} INFO - Running <TaskInstance: a_primeira_DAG_v1.hello scheduled__2024-03-17T00:00:00+00:00 [running]> on host PC-Tilto.
+[2024-05-03T21:22:12.064-0300] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-05-03T21:22:12.067-0300] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 21486. PIDs of all processes in the group: [21486]
+[2024-05-03T21:22:12.067-0300] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 21486
+[2024-05-03T21:22:12.069-0300] {taskinstance.py:2607} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-05-03T21:22:12.070-0300] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2024-05-03T21:22:12.084-0300] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 2476, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 2634, in _execute_task_with_callbacks
+    RenderedTaskInstanceFields.delete_old_records(self.task_id, self.dag_id)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/utils/session.py", line 78, in wrapper
+    with create_session() as session:
+  File "/usr/lib/python3.10/contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/utils/session.py", line 39, in create_session
+    session.commit()
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 1454, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 839, in commit
+    trans.commit()
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 2469, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 2659, in _do_commit
+    self._connection_commit_impl()
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 2630, in _connection_commit_impl
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1096, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 2138, in _handle_dbapi_exception
+    util.raise_(exc_info[1], with_traceback=exc_info[2])
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1094, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/default.py", line 686, in do_commit
+    dbapi_connection.commit()
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 2609, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-05-03T21:22:12.099-0300] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=a_primeira_DAG_v1, task_id=hello, execution_date=20240317T000000, start_date=20240504T002211, end_date=20240504T002212
+[2024-05-03T21:22:12.160-0300] {process_utils.py:80} INFO - Process psutil.Process(pid=21486, status='terminated', exitcode=2, started='21:22:10') (21486) terminated with exit code 2

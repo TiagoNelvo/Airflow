@@ -1,0 +1,5 @@
+pip install apache airflow
+export AIRFLOW_HOME=$(pwd)
+airflow standalone
+dags_folder = /mnt/c/Users/Tilto/Desktop/Work/Airflow aula/dags
+cd /mnt/c/Users/Tilto/Desktop/Work/Airflow
