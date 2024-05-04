@@ -1,0 +1,601 @@
+[2024-05-04T00:01:39.907-0300] {processor.py:161} INFO - Started process (PID=1279) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:01:39.908-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:01:39.909-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:01:39.909-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:01:39.931-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:01:39.926-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    start_date=datetime(2020,1,1)
+TypeError: 'module' object is not callable
+[2024-05-04T00:01:39.933-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:01:39.969-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.067 seconds
+[2024-05-04T00:02:10.609-0300] {processor.py:161} INFO - Started process (PID=1416) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:02:10.611-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:02:10.613-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:02:10.612-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:02:10.633-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:02:10.629-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    start_date=datetime(2020,1,1)
+TypeError: 'module' object is not callable
+[2024-05-04T00:02:10.635-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:02:11.392-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.788 seconds
+[2024-05-04T00:02:42.167-0300] {processor.py:161} INFO - Started process (PID=1547) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:02:42.168-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:02:42.169-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:02:42.169-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:02:42.191-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:02:42.186-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    start_date=datetime(2020,1,1)
+TypeError: 'module' object is not callable
+[2024-05-04T00:02:42.193-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:02:42.239-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.077 seconds
+[2024-05-04T00:03:12.466-0300] {processor.py:161} INFO - Started process (PID=1672) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:03:12.467-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:03:12.468-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:03:12.468-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:03:12.493-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:03:12.487-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    start_date=datetime(2020,1,1)
+TypeError: 'module' object is not callable
+[2024-05-04T00:03:12.495-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:03:12.533-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.073 seconds
+[2024-05-04T00:03:42.904-0300] {processor.py:161} INFO - Started process (PID=1801) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:03:42.906-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:03:42.907-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:03:42.907-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:03:42.928-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:03:42.924-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    start_date=datetime(2020,1,1)
+TypeError: 'module' object is not callable
+[2024-05-04T00:03:42.930-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:03:42.969-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.071 seconds
+[2024-05-04T00:04:13.440-0300] {processor.py:161} INFO - Started process (PID=1932) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:04:13.441-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:04:13.442-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:04:13.442-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:04:13.462-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:04:13.458-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    start_date=datetime(2020,1,1)
+TypeError: 'module' object is not callable
+[2024-05-04T00:04:13.463-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:04:13.496-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.060 seconds
+[2024-05-04T00:04:43.962-0300] {processor.py:161} INFO - Started process (PID=2066) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:04:43.963-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:04:43.964-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:04:43.964-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:04:43.984-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:04:43.979-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    start_date=datetime(2020,1,1)
+TypeError: 'module' object is not callable
+[2024-05-04T00:04:43.986-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:04:44.019-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.062 seconds
+[2024-05-04T00:05:05.311-0300] {processor.py:161} INFO - Started process (PID=2156) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:05.312-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:05:05.316-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:05:05.315-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:05.340-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:05:05.340-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 1
+    from datetimeimport datetime
+                        ^^^^^^^^
+SyntaxError: invalid syntax
+[2024-05-04T00:05:05.341-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:05.379-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.072 seconds
+[2024-05-04T00:05:09.351-0300] {processor.py:161} INFO - Started process (PID=2173) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:09.352-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:05:09.353-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:05:09.353-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:09.375-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:05:09.374-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 1
+    from datetime import import datetime
+                         ^^^^^^
+SyntaxError: invalid syntax
+[2024-05-04T00:05:09.375-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:09.410-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.064 seconds
+[2024-05-04T00:05:12.222-0300] {processor.py:161} INFO - Started process (PID=2185) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:12.223-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:05:12.224-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:05:12.224-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:12.260-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:05:12.255-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 8, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:05:12.262-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:12.376-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.160 seconds
+[2024-05-04T00:05:28.431-0300] {processor.py:161} INFO - Started process (PID=2255) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:28.432-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:05:28.434-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:05:28.434-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:28.469-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:05:28.464-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    start_date=datetime(2020,1,1)
+NameError: name 'datetime' is not defined
+[2024-05-04T00:05:28.471-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:28.509-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.082 seconds
+[2024-05-04T00:05:31.265-0300] {processor.py:161} INFO - Started process (PID=2267) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:31.266-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:05:31.268-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:05:31.268-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:31.301-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:05:31.296-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 12, in <module>
+    start_date=datetime(2020,1,1)
+NameError: name 'datetime' is not defined
+[2024-05-04T00:05:31.303-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:31.335-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.075 seconds
+[2024-05-04T00:05:52.063-0300] {processor.py:161} INFO - Started process (PID=2375) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:52.064-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:05:52.065-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:05:52.065-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:52.082-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:05:52.078-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 9, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:05:52.084-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:05:52.113-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.055 seconds
+[2024-05-04T00:06:22.806-0300] {processor.py:161} INFO - Started process (PID=2520) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:06:22.807-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:06:22.809-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:06:22.809-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:06:22.828-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:06:22.822-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 9, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:06:22.831-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:06:22.870-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.067 seconds
+[2024-05-04T00:06:53.421-0300] {processor.py:161} INFO - Started process (PID=2648) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:06:53.422-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:06:53.424-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:06:53.423-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:06:53.440-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:06:53.437-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 9, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:06:53.442-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:06:53.471-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.054 seconds
+[2024-05-04T00:07:23.765-0300] {processor.py:161} INFO - Started process (PID=2776) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:07:23.766-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:07:23.767-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:07:23.767-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:07:23.786-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:07:23.783-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 9, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:07:23.788-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:07:23.821-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.060 seconds
+[2024-05-04T00:07:54.265-0300] {processor.py:161} INFO - Started process (PID=2911) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:07:54.266-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:07:54.267-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:07:54.267-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:07:54.283-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:07:54.279-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 9, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:07:54.284-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:07:54.315-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.054 seconds
+[2024-05-04T00:08:16.697-0300] {processor.py:161} INFO - Started process (PID=3020) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:08:16.702-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:08:16.704-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:08:16.703-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:08:16.758-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:08:16.750-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:08:16.763-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:08:16.818-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.132 seconds
+[2024-05-04T00:08:34.955-0300] {processor.py:161} INFO - Started process (PID=3128) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:08:34.956-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:08:34.958-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:08:34.957-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:08:34.980-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:08:34.974-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:08:34.982-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:08:35.022-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.072 seconds
+[2024-05-04T00:09:05.715-0300] {processor.py:161} INFO - Started process (PID=3349) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:09:05.716-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:09:05.718-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:09:05.717-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:09:05.740-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:09:05.735-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:09:05.742-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:09:05.778-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.067 seconds
+[2024-05-04T00:09:36.167-0300] {processor.py:161} INFO - Started process (PID=3475) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:09:36.168-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:09:36.169-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:09:36.169-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:09:36.191-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:09:36.186-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:09:36.193-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:09:36.226-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.063 seconds
+[2024-05-04T00:10:06.501-0300] {processor.py:161} INFO - Started process (PID=3601) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:10:06.502-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:10:06.503-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:10:06.503-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:10:06.524-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:10:06.519-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:10:06.526-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:10:06.561-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.065 seconds
+[2024-05-04T00:10:36.842-0300] {processor.py:161} INFO - Started process (PID=3726) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:10:36.843-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:10:36.844-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:10:36.844-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:10:36.865-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:10:36.860-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:10:36.866-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:10:36.901-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.063 seconds
+[2024-05-04T00:11:07.160-0300] {processor.py:161} INFO - Started process (PID=3851) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:11:07.161-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:11:07.163-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:11:07.163-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:11:07.185-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:11:07.180-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:11:07.187-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:11:07.224-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.071 seconds
+[2024-05-04T00:11:37.896-0300] {processor.py:161} INFO - Started process (PID=3978) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:11:37.897-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:11:37.898-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:11:37.898-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:11:37.918-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:11:37.913-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:11:37.920-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:11:37.953-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.062 seconds
+[2024-05-04T00:12:08.359-0300] {processor.py:161} INFO - Started process (PID=4104) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:12:08.360-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:12:08.362-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:12:08.362-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:12:08.382-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:12:08.377-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:12:08.384-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:12:08.420-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.064 seconds
+[2024-05-04T00:12:39.007-0300] {processor.py:161} INFO - Started process (PID=4231) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:12:39.008-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:12:39.010-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:12:39.009-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:12:39.030-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:12:39.026-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:12:39.032-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:12:39.142-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.139 seconds
+[2024-05-04T00:13:09.868-0300] {processor.py:161} INFO - Started process (PID=4358) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:13:09.869-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:13:09.870-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:13:09.870-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:13:09.891-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:13:09.886-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:13:09.893-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:13:09.927-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.064 seconds
+[2024-05-04T00:13:40.791-0300] {processor.py:161} INFO - Started process (PID=4488) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:13:40.792-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:13:40.794-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:13:40.793-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:13:40.814-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:13:40.810-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:13:40.816-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:13:40.849-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.062 seconds
+[2024-05-04T00:14:11.720-0300] {processor.py:161} INFO - Started process (PID=4616) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:14:11.721-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:14:11.723-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:14:11.723-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:14:11.745-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:14:11.739-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:14:11.747-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:14:11.784-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.069 seconds
+[2024-05-04T00:14:42.629-0300] {processor.py:161} INFO - Started process (PID=4744) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:14:42.629-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:14:42.631-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:14:42.631-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:14:42.656-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:14:42.650-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:14:42.658-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:14:42.750-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.126 seconds
+[2024-05-04T00:15:13.476-0300] {processor.py:161} INFO - Started process (PID=4871) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:15:13.476-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:15:13.478-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:15:13.478-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:15:13.497-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:15:13.493-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:15:13.499-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:15:13.533-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.061 seconds
+[2024-05-04T00:15:44.522-0300] {processor.py:161} INFO - Started process (PID=5010) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:15:44.523-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:15:44.525-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:15:44.525-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:15:44.546-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:15:44.541-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:15:44.548-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:15:44.583-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.065 seconds
+[2024-05-04T00:16:15.390-0300] {processor.py:161} INFO - Started process (PID=5145) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:16:15.391-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:16:15.393-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:16:15.393-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:16:15.413-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:16:15.409-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:16:15.415-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:16:15.450-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.064 seconds
+[2024-05-04T00:16:46.196-0300] {processor.py:161} INFO - Started process (PID=5272) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:16:46.197-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:16:46.198-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:16:46.198-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:16:46.218-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:16:46.213-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:16:46.219-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:16:46.254-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.062 seconds
+[2024-05-04T00:16:55.273-0300] {processor.py:161} INFO - Started process (PID=5313) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:16:55.274-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:16:55.276-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:16:55.275-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:16:55.309-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:16:55.304-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 10, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:16:55.310-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:16:55.345-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.076 seconds
+[2024-05-04T00:17:26.342-0300] {processor.py:161} INFO - Started process (PID=5451) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:17:26.344-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:17:26.345-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:17:26.345-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:17:26.368-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:17:26.363-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py", line 10, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2024-05-04T00:17:26.370-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:17:26.406-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.068 seconds
+[2024-05-04T00:19:16.648-0300] {processor.py:161} INFO - Started process (PID=5961) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:19:16.649-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:19:16.651-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:19:16.650-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:19:16.673-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:19:16.686-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:19:16.685-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-04T00:19:16.702-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:19:16.702-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-04T00:19:16.778-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.133 seconds
+[2024-05-04T00:19:47.451-0300] {processor.py:161} INFO - Started process (PID=6096) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:19:47.452-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:19:47.454-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:19:47.453-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:19:47.474-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:19:47.577-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:19:47.577-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-04T00:19:47.589-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:19:47.589-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-04T00:19:47.650-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.203 seconds
+[2024-05-04T00:20:17.993-0300] {processor.py:161} INFO - Started process (PID=6230) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:20:17.994-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:20:17.996-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:20:17.995-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:20:18.015-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:20:18.041-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:20:18.041-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-04T00:20:18.053-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:20:18.053-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-04T00:20:18.158-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.169 seconds
+[2024-05-04T00:20:48.304-0300] {processor.py:161} INFO - Started process (PID=6355) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:20:48.304-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:20:48.306-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:20:48.306-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:20:48.326-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:20:48.352-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:20:48.352-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-04T00:20:48.364-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:20:48.364-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-04T00:20:48.421-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.122 seconds
+[2024-05-04T00:21:18.641-0300] {processor.py:161} INFO - Started process (PID=6480) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:21:18.641-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:21:18.643-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:21:18.642-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:21:18.663-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:21:18.688-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:21:18.688-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-04T00:21:18.700-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:21:18.700-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-04T00:21:18.761-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.125 seconds
+[2024-05-04T00:21:49.909-0300] {processor.py:161} INFO - Started process (PID=6609) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:21:49.910-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:21:49.911-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:21:49.911-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:21:49.932-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:21:49.957-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:21:49.957-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-04T00:21:49.971-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:21:49.971-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-04T00:21:50.029-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.124 seconds
+[2024-05-04T00:22:20.568-0300] {processor.py:161} INFO - Started process (PID=6743) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:22:20.569-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:22:20.570-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:22:20.570-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:22:20.596-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:22:20.623-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:22:20.623-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-04T00:22:20.638-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:22:20.638-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-04T00:22:20.698-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.135 seconds
+[2024-05-04T00:22:50.985-0300] {processor.py:161} INFO - Started process (PID=6871) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:22:50.986-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:22:50.987-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:22:50.987-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:22:51.007-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:22:51.034-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:22:51.034-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-04T00:22:51.047-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:22:51.047-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-04T00:22:51.105-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.125 seconds
+[2024-05-04T00:23:21.692-0300] {processor.py:161} INFO - Started process (PID=7013) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:23:21.694-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:23:21.697-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:23:21.697-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:23:21.722-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:23:21.752-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:23:21.752-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-04T00:23:21.767-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:23:21.766-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-04T00:23:21.841-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.153 seconds
+[2024-05-04T00:23:52.139-0300] {processor.py:161} INFO - Started process (PID=7144) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:23:52.140-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:23:52.142-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:23:52.141-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:23:52.166-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:23:52.194-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:23:52.194-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-04T00:23:52.208-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:23:52.207-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-04T00:23:52.327-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.192 seconds
+[2024-05-04T00:24:22.668-0300] {processor.py:161} INFO - Started process (PID=7273) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:24:22.669-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-04T00:24:22.671-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:24:22.670-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:24:22.693-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-04T00:24:22.718-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:24:22.718-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-04T00:24:22.730-0300] {logging_mixin.py:188} INFO - [2024-05-04T00:24:22.730-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-04T00:24:22.788-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.124 seconds
