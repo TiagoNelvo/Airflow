@@ -14,12 +14,13 @@ def read_data():
     )
 
 def copy_data():
-    lines = ""
+    lines = ''
     with open(data + "/characters.csv", "r") as f:
-        for lines in f:
+        for line in f:
             lines += line.replace(",", "-")
-    with open(data + "/characters.csv", "w") as f:
-        f.wirte(lines)
+    with open(data + "/characters_new.csv", "w") as f:
+        f.write(lines)
+
 
 
 with DAG(

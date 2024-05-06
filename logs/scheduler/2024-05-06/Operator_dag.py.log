@@ -1,0 +1,595 @@
+[2024-05-06T18:23:18.412-0300] {processor.py:161} INFO - Started process (PID=964) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:23:18.413-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:23:18.415-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:23:18.415-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:23:18.451-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:23:18.468-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:23:18.467-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:23:18.487-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:23:18.486-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:23:18.579-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.174 seconds
+[2024-05-06T18:23:48.716-0300] {processor.py:161} INFO - Started process (PID=1121) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:23:48.717-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:23:48.719-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:23:48.719-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:23:48.738-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:23:48.839-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:23:48.838-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:23:48.850-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:23:48.850-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:23:48.905-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.193 seconds
+[2024-05-06T18:24:20.009-0300] {processor.py:161} INFO - Started process (PID=1257) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:24:20.010-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:24:20.012-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:24:20.011-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:24:20.034-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:24:20.059-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:24:20.059-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:24:20.073-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:24:20.073-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:24:20.132-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.129 seconds
+[2024-05-06T18:24:50.844-0300] {processor.py:161} INFO - Started process (PID=1385) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:24:50.845-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:24:50.847-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:24:50.846-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:24:50.867-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:24:50.892-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:24:50.892-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:24:50.906-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:24:50.905-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:24:50.965-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.124 seconds
+[2024-05-06T18:25:22.100-0300] {processor.py:161} INFO - Started process (PID=1518) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:25:22.101-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:25:22.102-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:25:22.102-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:25:22.122-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:25:22.149-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:25:22.149-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:25:22.164-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:25:22.164-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:25:22.290-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.195 seconds
+[2024-05-06T18:25:53.009-0300] {processor.py:161} INFO - Started process (PID=1647) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:25:53.010-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:25:53.012-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:25:53.011-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:25:53.031-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:25:53.058-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:25:53.058-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:25:53.070-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:25:53.070-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:25:53.127-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.123 seconds
+[2024-05-06T18:26:23.806-0300] {processor.py:161} INFO - Started process (PID=1776) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:26:23.807-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:26:23.810-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:26:23.809-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:26:23.840-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:26:23.867-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:26:23.866-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:26:23.879-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:26:23.879-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:26:23.940-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.142 seconds
+[2024-05-06T18:26:54.523-0300] {processor.py:161} INFO - Started process (PID=1904) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:26:54.524-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:26:54.525-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:26:54.525-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:26:54.546-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:26:54.571-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:26:54.571-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:26:54.583-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:26:54.583-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:26:54.677-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.159 seconds
+[2024-05-06T18:27:24.878-0300] {processor.py:161} INFO - Started process (PID=2033) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:27:24.879-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:27:24.881-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:27:24.881-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:27:24.903-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:27:24.927-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:27:24.927-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:27:24.939-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:27:24.939-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:27:24.996-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.122 seconds
+[2024-05-06T18:27:56.626-0300] {processor.py:161} INFO - Started process (PID=2165) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:27:56.627-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:27:56.628-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:27:56.628-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:27:56.647-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:27:56.672-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:27:56.671-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:27:56.683-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:27:56.683-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:27:56.740-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.118 seconds
+[2024-05-06T18:28:27.127-0300] {processor.py:161} INFO - Started process (PID=2292) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:28:27.128-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:28:27.129-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:28:27.129-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:28:27.149-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:28:27.174-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:28:27.174-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:28:27.186-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:28:27.186-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:28:27.245-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.122 seconds
+[2024-05-06T18:28:57.691-0300] {processor.py:161} INFO - Started process (PID=2420) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:28:57.692-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:28:57.694-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:28:57.693-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:28:57.717-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:28:57.744-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:28:57.744-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:28:57.757-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:28:57.757-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:28:57.821-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.134 seconds
+[2024-05-06T18:29:28.100-0300] {processor.py:161} INFO - Started process (PID=2547) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:29:28.101-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:29:28.103-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:29:28.102-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:29:28.122-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:29:28.147-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:29:28.147-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:29:28.160-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:29:28.160-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:29:28.220-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.124 seconds
+[2024-05-06T18:29:58.527-0300] {processor.py:161} INFO - Started process (PID=2676) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:29:58.528-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:29:58.530-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:29:58.529-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:29:58.551-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:29:58.577-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:29:58.577-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:29:58.590-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:29:58.590-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:29:58.651-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.128 seconds
+[2024-05-06T18:30:29.115-0300] {processor.py:161} INFO - Started process (PID=2807) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:30:29.117-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:30:29.119-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:30:29.119-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:30:29.142-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:30:29.170-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:30:29.170-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:30:29.184-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:30:29.184-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:30:29.249-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.138 seconds
+[2024-05-06T18:30:59.702-0300] {processor.py:161} INFO - Started process (PID=2934) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:30:59.703-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:30:59.704-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:30:59.704-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:30:59.726-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:30:59.752-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:30:59.752-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:30:59.764-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:30:59.764-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:30:59.823-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.126 seconds
+[2024-05-06T18:31:30.593-0300] {processor.py:161} INFO - Started process (PID=3063) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:31:30.594-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:31:30.595-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:31:30.595-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:31:30.617-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:31:30.644-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:31:30.643-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:31:30.657-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:31:30.656-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:31:30.732-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.144 seconds
+[2024-05-06T18:32:01.554-0300] {processor.py:161} INFO - Started process (PID=3267) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:32:01.555-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:32:01.556-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:32:01.556-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:32:01.580-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:32:01.605-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:32:01.605-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:32:01.618-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:32:01.617-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:32:01.683-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.133 seconds
+[2024-05-06T18:32:32.592-0300] {processor.py:161} INFO - Started process (PID=3397) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:32:32.593-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:32:32.595-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:32:32.594-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:32:32.615-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:32:32.640-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:32:32.639-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:32:32.651-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:32:32.651-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:32:32.711-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.123 seconds
+[2024-05-06T18:33:03.569-0300] {processor.py:161} INFO - Started process (PID=3529) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:33:03.570-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:33:03.571-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:33:03.571-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:33:03.590-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:33:03.615-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:33:03.615-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:33:03.628-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:33:03.628-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:33:03.749-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.184 seconds
+[2024-05-06T18:33:34.326-0300] {processor.py:161} INFO - Started process (PID=3657) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:33:34.327-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:33:34.329-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:33:34.328-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:33:34.349-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:33:34.374-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:33:34.373-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:33:34.460-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:33:34.460-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:33:34.516-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.194 seconds
+[2024-05-06T18:34:04.889-0300] {processor.py:161} INFO - Started process (PID=3795) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:34:04.890-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:34:04.891-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:34:04.891-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:34:04.913-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:34:05.003-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:34:05.002-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:34:05.014-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:34:05.014-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:34:05.082-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.198 seconds
+[2024-05-06T18:34:35.812-0300] {processor.py:161} INFO - Started process (PID=3924) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:34:35.813-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:34:35.815-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:34:35.814-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:34:35.835-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:34:35.926-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:34:35.926-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:34:35.938-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:34:35.938-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:34:36.006-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.198 seconds
+[2024-05-06T18:35:07.158-0300] {processor.py:161} INFO - Started process (PID=4054) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:35:07.159-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:35:07.160-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:35:07.160-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:35:07.244-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:35:07.265-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:35:07.265-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:35:07.276-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:35:07.276-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:35:07.336-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.183 seconds
+[2024-05-06T18:35:37.972-0300] {processor.py:161} INFO - Started process (PID=4182) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:35:37.974-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:35:37.976-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:35:37.976-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:35:38.008-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:35:38.040-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:35:38.040-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:35:38.054-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:35:38.053-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:35:38.118-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.163 seconds
+[2024-05-06T18:36:08.679-0300] {processor.py:161} INFO - Started process (PID=4314) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:36:08.681-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:36:08.682-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:36:08.682-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:36:08.703-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:36:08.733-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:36:08.732-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:36:08.749-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:36:08.749-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:36:08.819-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.145 seconds
+[2024-05-06T18:38:02.460-0300] {processor.py:161} INFO - Started process (PID=4789) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:38:02.461-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:38:02.463-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:38:02.463-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:38:02.486-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:38:02.506-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:38:02.506-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:38:02.520-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:38:02.519-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:38:02.594-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.139 seconds
+[2024-05-06T18:38:33.105-0300] {processor.py:161} INFO - Started process (PID=4946) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:38:33.106-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:38:33.108-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:38:33.108-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:38:33.124-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:38:33.222-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:38:33.222-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:38:33.234-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:38:33.233-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:38:33.287-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.186 seconds
+[2024-05-06T18:39:06.172-0300] {processor.py:161} INFO - Started process (PID=5089) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:39:06.173-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:39:06.174-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:39:06.174-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:39:06.192-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:39:06.217-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:39:06.216-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:39:06.231-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:39:06.231-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:39:06.287-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.120 seconds
+[2024-05-06T18:39:37.206-0300] {processor.py:161} INFO - Started process (PID=5221) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:39:37.207-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:39:37.208-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:39:37.208-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:39:37.227-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:39:37.251-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:39:37.251-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:39:37.264-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:39:37.264-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:39:37.322-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.121 seconds
+[2024-05-06T18:40:08.052-0300] {processor.py:161} INFO - Started process (PID=5354) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:40:08.053-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:40:08.055-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:40:08.055-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:40:08.077-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:40:08.106-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:40:08.106-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:40:08.119-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:40:08.119-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:40:08.187-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.142 seconds
+[2024-05-06T18:40:39.822-0300] {processor.py:161} INFO - Started process (PID=5486) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:40:39.823-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:40:39.825-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:40:39.825-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:40:39.846-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:40:39.870-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:40:39.870-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:40:39.883-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:40:39.883-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:40:40.385-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.567 seconds
+[2024-05-06T18:41:10.592-0300] {processor.py:161} INFO - Started process (PID=5614) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:41:10.593-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:41:10.594-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:41:10.594-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:41:10.614-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:41:10.639-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:41:10.639-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:41:10.652-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:41:10.652-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:41:10.709-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.123 seconds
+[2024-05-06T18:41:41.200-0300] {processor.py:161} INFO - Started process (PID=5741) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:41:41.202-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:41:41.204-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:41:41.203-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:41:41.231-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:41:41.262-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:41:41.262-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:41:41.275-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:41:41.275-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:41:41.334-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.141 seconds
+[2024-05-06T18:42:11.952-0300] {processor.py:161} INFO - Started process (PID=5869) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:42:11.953-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:42:11.954-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:42:11.954-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:42:11.976-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:42:12.003-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:42:12.003-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:42:12.016-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:42:12.016-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:42:12.076-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.129 seconds
+[2024-05-06T18:42:42.892-0300] {processor.py:161} INFO - Started process (PID=5999) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:42:42.893-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:42:42.894-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:42:42.894-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:42:42.920-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:42:42.953-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:42:42.953-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:42:42.968-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:42:42.967-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:42:43.052-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.165 seconds
+[2024-05-06T18:43:13.446-0300] {processor.py:161} INFO - Started process (PID=6129) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:43:13.447-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:43:13.449-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:43:13.448-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:43:13.469-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:43:13.493-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:43:13.492-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:43:13.505-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:43:13.505-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:43:13.559-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.119 seconds
+[2024-05-06T18:43:43.908-0300] {processor.py:161} INFO - Started process (PID=6259) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:43:43.909-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:43:43.911-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:43:43.911-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:43:43.932-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:43:43.956-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:43:43.956-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:43:43.968-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:43:43.968-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:43:44.025-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.121 seconds
+[2024-05-06T18:44:02.597-0300] {processor.py:161} INFO - Started process (PID=6356) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:44:02.598-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:44:02.600-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:44:02.600-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:44:02.626-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:44:02.642-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:44:02.642-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:44:02.659-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:44:02.659-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:44:03.105-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.514 seconds
+[2024-05-06T18:44:33.465-0300] {processor.py:161} INFO - Started process (PID=6489) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:44:33.466-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:44:33.467-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:44:33.467-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:44:33.487-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:44:33.590-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:44:33.590-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:44:33.602-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:44:33.602-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:44:33.664-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.204 seconds
+[2024-05-06T18:45:04.661-0300] {processor.py:161} INFO - Started process (PID=6619) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:45:04.661-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:45:04.663-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:45:04.662-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:45:04.683-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:45:04.708-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:45:04.708-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:45:04.721-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:45:04.721-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:45:04.778-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.123 seconds
+[2024-05-06T18:51:00.555-0300] {processor.py:161} INFO - Started process (PID=8133) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:51:00.556-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:51:00.557-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:51:00.557-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:51:00.580-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:51:00.593-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:51:00.592-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:51:00.605-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:51:00.605-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:51:00.673-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.123 seconds
+[2024-05-06T18:53:28.593-0300] {processor.py:161} INFO - Started process (PID=8739) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:53:28.594-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:53:28.596-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:53:28.595-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:53:28.614-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:53:28.784-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:53:28.783-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:53:28.793-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:53:28.793-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:53:28.854-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.265 seconds
+[2024-05-06T18:55:56.859-0300] {processor.py:161} INFO - Started process (PID=9346) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:55:56.860-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:55:56.862-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:55:56.861-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:55:56.880-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:55:56.906-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:55:56.906-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:55:56.917-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:55:56.917-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:55:56.976-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.121 seconds
+[2024-05-06T18:56:27.545-0300] {processor.py:161} INFO - Started process (PID=9474) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:56:27.546-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:56:27.547-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:56:27.547-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:56:27.567-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:56:27.595-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:56:27.595-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:56:27.608-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:56:27.608-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:56:27.680-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.139 seconds
+[2024-05-06T18:56:58.550-0300] {processor.py:161} INFO - Started process (PID=9603) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:56:58.551-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:56:58.552-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:56:58.551-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:56:58.570-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:56:58.594-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:56:58.594-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:56:58.606-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:56:58.606-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:56:58.663-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.117 seconds
+[2024-05-06T18:57:29.441-0300] {processor.py:161} INFO - Started process (PID=9731) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:57:29.441-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:57:29.442-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:57:29.442-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:57:29.460-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:57:29.485-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:57:29.484-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:57:29.497-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:57:29.497-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:57:29.554-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.118 seconds
+[2024-05-06T18:58:00.402-0300] {processor.py:161} INFO - Started process (PID=9863) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:58:00.403-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:58:00.404-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:58:00.403-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:58:00.433-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:58:00.473-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:58:00.473-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:58:00.489-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:58:00.488-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:58:00.551-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.155 seconds
+[2024-05-06T18:58:40.523-0300] {processor.py:161} INFO - Started process (PID=10061) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:58:40.524-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:58:40.526-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:58:40.525-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:58:40.549-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:58:40.560-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:58:40.560-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:58:40.573-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:58:40.573-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:58:40.636-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.117 seconds
+[2024-05-06T18:59:11.735-0300] {processor.py:161} INFO - Started process (PID=10198) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:59:11.736-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T18:59:11.737-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:59:11.737-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:59:11.757-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T18:59:11.989-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:59:11.989-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:59:12.001-0300] {logging_mixin.py:188} INFO - [2024-05-06T18:59:12.000-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T18:59:12.163-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.432 seconds
+[2024-05-06T19:02:10.696-0300] {processor.py:161} INFO - Started process (PID=10941) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:02:10.697-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:02:10.698-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:02:10.698-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:02:10.716-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:02:10.740-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:02:10.740-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:02:10.752-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:02:10.752-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:02:10.809-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.117 seconds
+[2024-05-06T19:02:41.342-0300] {processor.py:161} INFO - Started process (PID=11069) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:02:41.343-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:02:41.344-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:02:41.344-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:02:41.361-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:02:41.388-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:02:41.388-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:02:41.400-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:02:41.400-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:02:41.458-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.121 seconds
+[2024-05-06T19:03:12.312-0300] {processor.py:161} INFO - Started process (PID=11198) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:03:12.313-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:03:12.314-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:03:12.313-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:03:12.330-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:03:12.355-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:03:12.355-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:03:12.367-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:03:12.367-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:03:12.427-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.121 seconds
+[2024-05-06T19:03:43.279-0300] {processor.py:161} INFO - Started process (PID=11327) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:03:43.281-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:03:43.282-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:03:43.282-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:03:43.304-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:03:43.330-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:03:43.329-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:03:43.342-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:03:43.342-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:03:43.488-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.213 seconds
+[2024-05-06T19:04:14.423-0300] {processor.py:161} INFO - Started process (PID=11459) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:04:14.424-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:04:14.425-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:04:14.424-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:04:14.440-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:04:14.466-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:04:14.465-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:04:14.482-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:04:14.482-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:04:14.675-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.257 seconds
+[2024-05-06T19:04:45.588-0300] {processor.py:161} INFO - Started process (PID=11589) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:04:45.589-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:04:45.590-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:04:45.590-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:04:45.604-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:04:45.628-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:04:45.627-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:04:45.638-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:04:45.638-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:04:45.687-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.104 seconds
+[2024-05-06T19:05:16.514-0300] {processor.py:161} INFO - Started process (PID=11718) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:05:16.515-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:05:16.516-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:05:16.516-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:05:16.532-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:05:16.559-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:05:16.558-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:05:16.570-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:05:16.570-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:05:16.623-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.113 seconds
+[2024-05-06T19:05:47.548-0300] {processor.py:161} INFO - Started process (PID=11847) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:05:47.550-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:05:47.551-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:05:47.550-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:05:47.570-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:05:47.595-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:05:47.595-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:05:47.607-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:05:47.607-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:05:47.666-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.122 seconds
+[2024-05-06T19:06:18.699-0300] {processor.py:161} INFO - Started process (PID=11976) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:06:18.700-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:06:18.701-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:06:18.701-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:06:18.716-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:06:18.740-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:06:18.740-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:06:18.754-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:06:18.754-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:06:18.893-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.198 seconds
+[2024-05-06T19:06:57.465-0300] {processor.py:161} INFO - Started process (PID=12162) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:06:57.466-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:06:57.467-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:06:57.467-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:06:57.494-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:06:57.509-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:06:57.509-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:06:57.524-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:06:57.524-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:06:57.585-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.124 seconds
+[2024-05-06T19:07:28.275-0300] {processor.py:161} INFO - Started process (PID=12294) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:07:28.276-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:07:28.277-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:07:28.277-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:07:28.297-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:07:28.397-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:07:28.397-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:07:28.409-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:07:28.409-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:07:28.472-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.201 seconds
+[2024-05-06T19:07:59.497-0300] {processor.py:161} INFO - Started process (PID=12424) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:07:59.499-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:07:59.500-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:07:59.499-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:07:59.521-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:07:59.547-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:07:59.547-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:07:59.561-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:07:59.561-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:07:59.643-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.149 seconds
+[2024-05-06T19:08:30.476-0300] {processor.py:161} INFO - Started process (PID=12555) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:08:30.477-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:08:30.478-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:08:30.478-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:08:30.501-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:08:30.527-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:08:30.527-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:08:30.540-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:08:30.540-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:08:30.600-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.128 seconds
+[2024-05-06T19:12:44.669-0300] {processor.py:161} INFO - Started process (PID=13597) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:12:44.671-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:12:44.672-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:12:44.672-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:12:44.695-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:12:44.708-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:12:44.708-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:12:44.723-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:12:44.722-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:12:44.780-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.116 seconds
+[2024-05-06T19:13:15.411-0300] {processor.py:161} INFO - Started process (PID=13733) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:13:15.412-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:13:15.413-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:13:15.413-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:13:15.434-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:13:15.546-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:13:15.546-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:13:15.560-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:13:15.560-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:13:15.630-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.224 seconds
+[2024-05-06T19:13:46.652-0300] {processor.py:161} INFO - Started process (PID=13868) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:13:46.653-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:13:46.655-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:13:46.655-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:13:46.672-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:13:46.694-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:13:46.694-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:13:46.710-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:13:46.709-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:13:46.768-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.119 seconds
+[2024-05-06T19:14:17.676-0300] {processor.py:161} INFO - Started process (PID=13997) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:14:17.676-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:14:17.678-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:14:17.677-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:14:17.694-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:14:17.718-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:14:17.718-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:14:17.730-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:14:17.729-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:14:17.779-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.108 seconds
+[2024-05-06T19:14:48.814-0300] {processor.py:161} INFO - Started process (PID=14127) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:14:48.815-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:14:48.817-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:14:48.816-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:14:48.837-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:14:48.862-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:14:48.861-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:14:48.874-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:14:48.873-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:14:48.933-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.123 seconds
+[2024-05-06T19:15:19.821-0300] {processor.py:161} INFO - Started process (PID=14256) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:15:19.821-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:15:19.823-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:15:19.823-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:15:19.840-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:15:19.863-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:15:19.863-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:15:19.882-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:15:19.881-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:15:20.003-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.187 seconds
+[2024-05-06T19:15:50.878-0300] {processor.py:161} INFO - Started process (PID=14388) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:15:50.880-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:15:50.883-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:15:50.883-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:15:50.906-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:15:50.930-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:15:50.930-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:15:50.941-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:15:50.941-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:15:50.995-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.121 seconds
+[2024-05-06T19:16:21.962-0300] {processor.py:161} INFO - Started process (PID=14517) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:16:21.963-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:16:21.964-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:16:21.964-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:16:21.986-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:16:22.012-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:16:22.012-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:16:22.025-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:16:22.025-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:16:22.125-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.167 seconds
+[2024-05-06T19:18:54.255-0300] {processor.py:161} INFO - Started process (PID=15146) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:18:54.256-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:18:54.257-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:18:54.257-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:18:54.276-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:18:54.303-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:18:54.303-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:18:54.315-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:18:54.314-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:18:54.486-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.236 seconds
+[2024-05-06T19:19:24.830-0300] {processor.py:161} INFO - Started process (PID=15273) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:19:24.831-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:19:24.832-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:19:24.832-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:19:24.851-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:19:24.876-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:19:24.876-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:19:24.889-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:19:24.889-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:19:24.949-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.123 seconds
+[2024-05-06T19:19:56.148-0300] {processor.py:161} INFO - Started process (PID=15404) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:19:56.149-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:19:56.150-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:19:56.149-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:19:56.168-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:19:56.197-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:19:56.197-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:19:56.211-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:19:56.210-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:19:56.329-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.186 seconds
+[2024-05-06T19:20:37.694-0300] {processor.py:161} INFO - Started process (PID=15848) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:20:37.696-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:20:37.698-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:20:37.697-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:20:37.719-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:20:37.738-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:20:37.738-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:20:37.753-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:20:37.753-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:20:37.817-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.134 seconds
+[2024-05-06T19:21:08.731-0300] {processor.py:161} INFO - Started process (PID=15981) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:21:08.732-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:21:08.734-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:21:08.733-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:21:08.755-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:21:08.869-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:21:08.869-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:21:08.880-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:21:08.880-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:21:09.009-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.282 seconds
+[2024-05-06T19:21:40.150-0300] {processor.py:161} INFO - Started process (PID=16111) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:21:40.151-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:21:40.152-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:21:40.152-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:21:40.172-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:21:40.198-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:21:40.198-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:21:40.212-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:21:40.211-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:21:40.332-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.186 seconds
+[2024-05-06T19:22:11.215-0300] {processor.py:161} INFO - Started process (PID=16242) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:22:11.216-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:22:11.217-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:22:11.217-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:22:11.237-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:22:11.261-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:22:11.261-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:22:11.273-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:22:11.272-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:22:11.330-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.119 seconds
+[2024-05-06T19:22:42.408-0300] {processor.py:161} INFO - Started process (PID=16372) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:22:42.409-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:22:42.410-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:22:42.410-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:22:42.431-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:22:42.458-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:22:42.457-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:22:42.470-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:22:42.470-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:22:42.532-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.129 seconds
+[2024-05-06T19:23:13.519-0300] {processor.py:161} INFO - Started process (PID=16501) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:23:13.520-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:23:13.522-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:23:13.521-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:23:13.545-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:23:13.570-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:23:13.570-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:23:13.583-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:23:13.583-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:23:13.682-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.167 seconds
+[2024-05-06T19:23:44.528-0300] {processor.py:161} INFO - Started process (PID=16630) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:23:44.529-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:23:44.530-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:23:44.530-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:23:44.551-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:23:44.576-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:23:44.576-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:23:44.589-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:23:44.588-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:23:44.648-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.124 seconds
+[2024-05-06T19:24:15.651-0300] {processor.py:161} INFO - Started process (PID=16759) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:24:15.651-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:24:15.653-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:24:15.653-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:24:15.674-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:24:15.699-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:24:15.699-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:24:15.713-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:24:15.713-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:24:15.773-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.126 seconds
+[2024-05-06T19:24:46.147-0300] {processor.py:161} INFO - Started process (PID=16886) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:24:46.149-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:24:46.158-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:24:46.158-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:24:46.215-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:24:46.255-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:24:46.254-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:24:46.276-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:24:46.275-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:24:46.389-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.250 seconds
+[2024-05-06T19:25:46.274-0300] {processor.py:161} INFO - Started process (PID=17150) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:25:46.275-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:25:46.276-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:25:46.276-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:25:46.299-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:25:46.310-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:25:46.310-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:25:46.323-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:25:46.322-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:25:46.382-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.112 seconds
+[2024-05-06T19:26:17.210-0300] {processor.py:161} INFO - Started process (PID=17288) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:26:17.211-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py for tasks to queue
+[2024-05-06T19:26:17.212-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:26:17.212-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:26:17.232-0300] {processor.py:840} INFO - DAG(s) 'Operator_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py
+[2024-05-06T19:26:17.329-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:26:17.329-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:26:17.341-0300] {logging_mixin.py:188} INFO - [2024-05-06T19:26:17.341-0300] {dag.py:3954} INFO - Setting next_dagrun for Operator_dag to None, run_after=None
+[2024-05-06T19:26:17.400-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py took 0.194 seconds
