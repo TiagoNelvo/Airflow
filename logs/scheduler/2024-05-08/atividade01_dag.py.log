@@ -1,0 +1,154 @@
+[2024-05-08T00:09:35.333-0300] {processor.py:161} INFO - Started process (PID=10948) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:09:35.334-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py for tasks to queue
+[2024-05-08T00:09:35.336-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:09:35.335-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:09:35.368-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:09:35.363-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py", line 6, in <module>
+    from airflow.operators.postgres_hook import PostgresHook
+ModuleNotFoundError: No module named 'airflow.operators.postgres_hook'
+[2024-05-08T00:09:35.371-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:09:35.406-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py took 0.078 seconds
+[2024-05-08T00:10:06.706-0300] {processor.py:161} INFO - Started process (PID=11093) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:10:06.707-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py for tasks to queue
+[2024-05-08T00:10:06.708-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:10:06.708-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:10:06.729-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:10:06.725-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py", line 6, in <module>
+    from airflow.operators.postgres_hook import PostgresHook
+ModuleNotFoundError: No module named 'airflow.operators.postgres_hook'
+[2024-05-08T00:10:06.731-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:10:06.766-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py took 0.065 seconds
+[2024-05-08T00:10:26.150-0300] {processor.py:161} INFO - Started process (PID=11189) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:10:26.151-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py for tasks to queue
+[2024-05-08T00:10:26.152-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:10:26.152-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:10:26.185-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:10:26.181-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py", line 6, in <module>
+    from airflow.operators.postgres_hook import PostgresHook
+ModuleNotFoundError: No module named 'airflow.operators.postgres_hook'
+[2024-05-08T00:10:26.187-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:10:26.220-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py took 0.075 seconds
+[2024-05-08T00:10:56.930-0300] {processor.py:161} INFO - Started process (PID=11331) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:10:56.931-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py for tasks to queue
+[2024-05-08T00:10:56.933-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:10:56.932-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:10:56.954-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:10:56.950-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py", line 6, in <module>
+    from airflow.operators.postgres_hook import PostgresHook
+ModuleNotFoundError: No module named 'airflow.operators.postgres_hook'
+[2024-05-08T00:10:56.956-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:10:56.992-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py took 0.069 seconds
+[2024-05-08T00:11:28.170-0300] {processor.py:161} INFO - Started process (PID=11475) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:11:28.171-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py for tasks to queue
+[2024-05-08T00:11:28.173-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:11:28.173-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:11:28.195-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:11:28.190-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py", line 6, in <module>
+    from airflow.operators.postgres_hook import PostgresHook
+ModuleNotFoundError: No module named 'airflow.operators.postgres_hook'
+[2024-05-08T00:11:28.197-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:11:28.286-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py took 0.120 seconds
+[2024-05-08T00:11:59.203-0300] {processor.py:161} INFO - Started process (PID=11618) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:11:59.204-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py for tasks to queue
+[2024-05-08T00:11:59.205-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:11:59.205-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:11:59.227-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:11:59.222-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py", line 6, in <module>
+    from airflow.operators.postgres_hook import PostgresHook
+ModuleNotFoundError: No module named 'airflow.operators.postgres_hook'
+[2024-05-08T00:11:59.229-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:11:59.264-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py took 0.066 seconds
+[2024-05-08T00:12:30.284-0300] {processor.py:161} INFO - Started process (PID=11762) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:12:30.285-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py for tasks to queue
+[2024-05-08T00:12:30.286-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:12:30.286-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:12:30.307-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:12:30.302-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py", line 6, in <module>
+    from airflow.operators.postgres_hook import PostgresHook
+ModuleNotFoundError: No module named 'airflow.operators.postgres_hook'
+[2024-05-08T00:12:30.309-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:12:30.341-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py took 0.061 seconds
+[2024-05-08T00:13:01.238-0300] {processor.py:161} INFO - Started process (PID=11904) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:13:01.239-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py for tasks to queue
+[2024-05-08T00:13:01.240-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:01.240-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:13:01.260-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:01.256-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py", line 6, in <module>
+    from airflow.operators.postgres_hook import PostgresHook
+ModuleNotFoundError: No module named 'airflow.operators.postgres_hook'
+[2024-05-08T00:13:01.262-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:13:01.295-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py took 0.062 seconds
+[2024-05-08T00:13:12.680-0300] {processor.py:161} INFO - Started process (PID=11951) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:13:12.683-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py for tasks to queue
+[2024-05-08T00:13:12.685-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:12.685-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:13:12.732-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:12.726-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py", line 6, in <module>
+    from airflow.operators.postgres_hook import PostgresHook
+ModuleNotFoundError: No module named 'airflow.operators.postgres_hook'
+[2024-05-08T00:13:12.735-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:13:12.847-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py took 0.173 seconds
+[2024-05-08T00:13:43.482-0300] {processor.py:161} INFO - Started process (PID=12094) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:13:43.483-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py for tasks to queue
+[2024-05-08T00:13:43.484-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:43.484-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:13:43.504-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:43.499-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py", line 6, in <module>
+    from airflow.operators.postgres_hook import PostgresHook
+ModuleNotFoundError: No module named 'airflow.operators.postgres_hook'
+[2024-05-08T00:13:43.506-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:13:43.539-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py took 0.061 seconds
+[2024-05-08T00:14:02.189-0300] {processor.py:161} INFO - Started process (PID=12192) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:14:02.191-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py for tasks to queue
+[2024-05-08T00:14:02.193-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:14:02.193-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:14:02.284-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:14:02.273-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py", line 6, in <module>
+    from airflow.operators.postgres_hook import PostgresHook
+ModuleNotFoundError: No module named 'airflow.operators.postgres_hook'
+[2024-05-08T00:14:02.294-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py
+[2024-05-08T00:14:02.456-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py took 0.281 seconds

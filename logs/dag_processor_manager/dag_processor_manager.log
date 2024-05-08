@@ -8570,3 +8570,917 @@ File Path                                                        PID    Runtime 
 /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-07T21:54:59
 ================================================================================
 [2024-05-07T18:55:39.465-0300] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-05-07T23:42:05.662-0300] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-05-07T23:42:05.664-0300] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-05-07T23:42:05.665-0300] {manager.py:472} INFO - Checking for new files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags every 300 seconds
+[2024-05-07T23:42:05.667-0300] {manager.py:737} INFO - Searching for files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:42:05.841-0300] {manager.py:740} INFO - There are 9 files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:42:06.126-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:42:06
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  0           0
+================================================================================
+[2024-05-07T23:42:36.321-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  1.11s           2024-05-08T02:42:08
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.51s           2024-05-08T02:42:23
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T02:42:21
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T02:42:24
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:42:19
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:42:18
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T02:42:21
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:42:16
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:42:36
+================================================================================
+[2024-05-07T23:43:07.047-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T02:42:40
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.50s           2024-05-08T02:42:53
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.30s           2024-05-08T02:42:47
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.30s           2024-05-08T02:42:56
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T02:42:51
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.30s           2024-05-08T02:42:49
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.30s           2024-05-08T02:42:54
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:42:50
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:43:07
+================================================================================
+[2024-05-07T23:43:37.594-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T02:43:11
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.30s           2024-05-08T02:43:27
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T02:43:23
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:43:17
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T02:43:25
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:43:20
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T02:43:22
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:43:21
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:43:37
+================================================================================
+[2024-05-07T23:44:07.765-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.81s           2024-05-08T02:43:53
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T02:43:42
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.30s           2024-05-08T02:43:52
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.30s           2024-05-08T02:43:48
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.30s           2024-05-08T02:43:57
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.21s           2024-05-08T02:43:55
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T02:43:58
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T02:43:55
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:44:07
+================================================================================
+[2024-05-07T23:44:38.748-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.80s           2024-05-08T02:44:13
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.30s           2024-05-08T02:44:28
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:44:24
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:44:23
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:44:19
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T02:44:27
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T02:44:25
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T02:44:29
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:44:38
+================================================================================
+[2024-05-07T23:45:09.243-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T02:44:44
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T02:44:56
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T02:44:57
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:44:54
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:44:49
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:44:54
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T02:45:00
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T02:44:59
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:45:09
+================================================================================
+[2024-05-07T23:45:39.820-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.61s           2024-05-08T02:45:15
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:45:24
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T02:45:30
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T02:45:29
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:45:25
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T02:45:28
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T02:45:26
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:45:20
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:45:39
+================================================================================
+[2024-05-07T23:46:10.761-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T02:45:46
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.30s           2024-05-08T02:45:51
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T02:45:57
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T02:45:59
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:45:55
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T02:46:01
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T02:46:00
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:45:55
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:46:10
+================================================================================
+[2024-05-07T23:46:41.406-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.51s           2024-05-08T02:46:17
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.30s           2024-05-08T02:46:27
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:46:26
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T02:46:30
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T02:46:31
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T02:46:28
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:46:22
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T02:46:32
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:46:41
+================================================================================
+[2024-05-07T23:47:05.779-0300] {manager.py:737} INFO - Searching for files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:47:05.910-0300] {manager.py:740} INFO - There are 9 files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:47:11.933-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.51s           2024-05-08T02:46:48
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.30s           2024-05-08T02:47:03
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:46:52
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T02:46:59
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T02:47:02
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:46:58
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:46:56
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T02:47:01
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:47:11
+================================================================================
+[2024-05-07T23:47:42.327-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T02:47:19
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.40s           2024-05-08T02:47:32
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.31s           2024-05-08T02:47:33
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T02:47:35
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T02:47:29
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:47:23
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:47:28
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:47:27
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.20s           2024-05-08T02:47:42
+================================================================================
+[2024-05-07T23:48:12.859-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.50s           2024-05-08T02:47:50
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.30s           2024-05-08T02:47:54
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:47:58
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T02:48:03
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T02:48:00
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:47:57
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T02:48:04
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T02:48:05
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:48:12
+================================================================================
+[2024-05-07T23:48:17.295-0300] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-05-07T23:48:32.621-0300] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-05-07T23:48:32.622-0300] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-05-07T23:48:32.623-0300] {manager.py:472} INFO - Checking for new files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags every 300 seconds
+[2024-05-07T23:48:32.624-0300] {manager.py:737} INFO - Searching for files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:48:32.787-0300] {manager.py:740} INFO - There are 9 files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:48:33.105-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:48:33
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  0           0
+================================================================================
+[2024-05-07T23:49:03.406-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.61s           2024-05-08T02:48:34
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T02:48:40
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T02:48:41
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:48:36
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.20s           2024-05-08T02:49:03
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T02:48:42
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T02:48:39
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:48:37
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:48:37
+================================================================================
+[2024-05-07T23:49:34.170-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T02:49:06
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.50s           2024-05-08T02:49:13
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T02:49:11
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.30s           2024-05-08T02:49:15
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.30s           2024-05-08T02:49:13
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.21s           2024-05-08T02:49:10
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:49:08
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:49:07
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:49:34
+================================================================================
+[2024-05-07T23:50:04.432-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.70s           2024-05-08T02:49:46
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T02:49:37
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.40s           2024-05-08T02:49:41
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.30s           2024-05-08T02:49:40
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T02:49:43
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.30s           2024-05-08T02:49:44
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:49:38
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T02:49:47
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:50:04
+================================================================================
+[2024-05-07T23:50:14.589-0300] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-05-07T23:51:33.089-0300] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-05-07T23:51:33.090-0300] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-05-07T23:51:33.091-0300] {manager.py:472} INFO - Checking for new files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags every 300 seconds
+[2024-05-07T23:51:33.092-0300] {manager.py:737} INFO - Searching for files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:51:33.251-0300] {manager.py:740} INFO - There are 9 files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:51:34.107-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T02:51:34
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           0           0
+================================================================================
+[2024-05-07T23:53:52.869-0300] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-05-07T23:54:00.120-0300] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-05-07T23:54:00.121-0300] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-05-07T23:54:00.123-0300] {manager.py:472} INFO - Checking for new files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags every 300 seconds
+[2024-05-07T23:54:00.124-0300] {manager.py:737} INFO - Searching for files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:54:00.306-0300] {manager.py:740} INFO - There are 9 files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:54:00.596-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:54:00
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  0           0
+================================================================================
+[2024-05-07T23:54:10.707-0300] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-05-07T23:55:15.736-0300] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-05-07T23:55:15.737-0300] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-05-07T23:55:15.738-0300] {manager.py:472} INFO - Checking for new files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags every 300 seconds
+[2024-05-07T23:55:15.739-0300] {manager.py:737} INFO - Searching for files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:55:15.917-0300] {manager.py:740} INFO - There are 9 files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:55:16.265-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.20s           2024-05-08T02:55:16
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  0           0
+================================================================================
+[2024-05-07T23:57:31.341-0300] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-05-07T23:57:31.494-0300] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-05-07T23:57:31.495-0300] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-05-07T23:57:31.497-0300] {manager.py:472} INFO - Checking for new files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags every 300 seconds
+[2024-05-07T23:57:31.498-0300] {manager.py:737} INFO - Searching for files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:57:31.663-0300] {manager.py:740} INFO - There are 9 files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:57:31.929-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:57:31
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  0           0
+================================================================================
+[2024-05-07T23:58:02.396-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T02:57:33
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.41s           2024-05-08T02:57:38
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.40s           2024-05-08T02:57:41
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.40s           2024-05-08T02:57:43
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.40s           2024-05-08T02:57:39
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.40s           2024-05-08T02:57:42
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.40s           2024-05-08T02:57:35
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.30s           2024-05-08T02:57:36
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:58:02
+================================================================================
+[2024-05-07T23:58:33.061-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T02:58:04
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T02:58:10
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:58:09
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T02:58:12
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:58:07
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:58:05
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T02:58:11
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T02:58:14
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:58:33
+================================================================================
+[2024-05-07T23:59:03.627-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T02:58:35
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.50s           2024-05-08T02:58:44
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.50s           2024-05-08T02:58:43
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.40s           2024-05-08T02:58:45
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T02:58:41
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.21s           2024-05-08T02:59:03
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:58:36
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:58:40
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:58:37
+================================================================================
+[2024-05-07T23:59:20.266-0300] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-05-07T23:59:27.762-0300] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-05-07T23:59:27.763-0300] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-05-07T23:59:27.764-0300] {manager.py:472} INFO - Checking for new files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags every 300 seconds
+[2024-05-07T23:59:27.765-0300] {manager.py:737} INFO - Searching for files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:59:27.926-0300] {manager.py:740} INFO - There are 9 files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-07T23:59:28.171-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:59:28
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  0           0
+================================================================================
+[2024-05-07T23:59:58.520-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T02:59:29
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.30s           2024-05-08T02:59:38
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T02:59:31
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T02:59:32
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T02:59:34
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T02:59:33
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T02:59:35
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T02:59:37
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T02:59:58
+================================================================================
+[2024-05-08T00:00:28.978-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.70s           2024-05-08T03:00:00
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.30s           2024-05-08T03:00:04
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.30s           2024-05-08T03:00:07
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T03:00:05
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.30s           2024-05-08T03:00:09
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.30s           2024-05-08T03:00:08
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.30s           2024-05-08T03:00:03
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.30s           2024-05-08T03:00:02
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T03:00:28
+================================================================================
+[2024-05-08T00:00:33.305-0300] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-05-08T00:00:39.747-0300] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-05-08T00:00:39.748-0300] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-05-08T00:00:39.749-0300] {manager.py:472} INFO - Checking for new files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags every 300 seconds
+[2024-05-08T00:00:39.750-0300] {manager.py:737} INFO - Searching for files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-08T00:00:39.927-0300] {manager.py:740} INFO - There are 9 files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-08T00:00:40.206-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T03:00:40
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  0           0
+================================================================================
+[2024-05-08T00:01:10.882-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:00:41
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T03:00:46
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.30s           2024-05-08T03:00:45
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:00:43
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:00:49
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:00:49
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:00:47
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:00:44
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T03:01:10
+================================================================================
+[2024-05-08T00:01:41.996-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:01:12
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.40s           2024-05-08T03:01:14
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.36s           2024-05-08T03:01:17
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.30s           2024-05-08T03:01:15
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.30s           2024-05-08T03:01:16
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.30s           2024-05-08T03:01:20
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.30s           2024-05-08T03:01:19
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.30s           2024-05-08T03:01:21
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T03:01:33
+================================================================================
+[2024-05-08T00:02:12.504-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:01:44
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.50s           2024-05-08T03:01:48
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:01:50
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:01:46
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:01:45
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:01:52
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:01:51
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.20s           2024-05-08T03:02:03
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:01:49
+================================================================================
+[2024-05-08T00:02:43.119-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:02:15
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.30s           2024-05-08T03:02:24
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T03:02:20
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:02:23
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:02:18
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:02:19
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:02:17
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:02:21
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T03:02:34
+================================================================================
+[2024-05-08T00:03:13.500-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.61s           2024-05-08T03:02:46
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.40s           2024-05-08T03:02:52
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.30s           2024-05-08T03:02:48
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:02:49
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:02:55
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:02:54
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:02:50
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:02:53
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.10s           2024-05-08T03:03:04
+================================================================================
+[2024-05-08T00:03:43.902-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:03:18
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.30s           2024-05-08T03:03:19
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:03:23
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:03:20
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:03:21
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             0           1  0.20s           2024-05-08T03:03:35
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:03:22
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:03:26
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:03:25
+================================================================================
+[2024-05-08T00:04:15.019-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:03:49
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.30s           2024-05-08T03:03:56
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:04:15
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:03:50
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:03:52
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:03:51
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:03:54
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:03:58
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:03:55
+================================================================================
+[2024-05-08T00:04:26.119-0300] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-05-08T00:04:34.962-0300] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-05-08T00:04:34.963-0300] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-05-08T00:04:34.964-0300] {manager.py:472} INFO - Checking for new files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags every 300 seconds
+[2024-05-08T00:04:34.966-0300] {manager.py:737} INFO - Searching for files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-08T00:04:35.147-0300] {manager.py:740} INFO - There are 9 files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-08T00:04:35.523-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:04:35
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           0           0
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  0           0
+================================================================================
+[2024-05-08T00:05:26.099-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:04:37
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.30s           2024-05-08T03:05:26
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:04:43
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:04:46
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:04:38
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:04:42
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:04:45
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:04:39
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:04:41
+================================================================================
+[2024-05-08T00:05:56.106-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.71s           2024-05-08T03:05:35
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.40s           2024-05-08T03:05:44
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.40s           2024-05-08T03:05:45
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.30s           2024-05-08T03:05:26
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.30s           2024-05-08T03:05:37
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.30s           2024-05-08T03:05:38
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.30s           2024-05-08T03:05:42
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T03:05:41
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.30s           2024-05-08T03:05:40
+================================================================================
+[2024-05-08T00:06:26.668-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.51s           2024-05-08T03:06:06
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.30s           2024-05-08T03:06:16
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:05:57
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:06:11
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:06:13
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:06:10
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:06:08
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:06:09
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:06:14
+================================================================================
+[2024-05-08T00:06:56.825-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.51s           2024-05-08T03:06:37
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:06:46
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:06:28
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:06:39
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:06:40
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:06:41
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:06:44
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:06:45
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:06:43
+================================================================================
+[2024-05-08T00:07:27.295-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:07:08
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:07:11
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:07:12
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:07:13
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:07:15
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:07:17
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:07:10
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:06:59
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:07:16
+================================================================================
+[2024-05-08T00:07:57.751-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:07:39
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.30s           2024-05-08T03:07:48
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:07:40
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:07:45
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:07:43
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:07:47
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:07:42
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:07:30
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:07:42
+================================================================================
+[2024-05-08T00:08:28.195-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.50s           2024-05-08T03:08:10
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.30s           2024-05-08T03:08:01
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.30s           2024-05-08T03:08:11
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:08:13
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:08:19
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:08:15
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:08:14
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:08:18
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:08:17
+================================================================================
+[2024-05-08T00:08:58.629-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:08:41
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.30s           2024-05-08T03:08:48
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:08:32
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:08:49
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:08:50
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:08:46
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:08:44
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:08:43
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:08:42
+================================================================================
+[2024-05-08T00:09:29.077-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:09:12
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:09:15
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:09:03
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:09:13
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:09:17
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:09:16
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:09:19
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:09:21
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:09:20
+================================================================================
+[2024-05-08T00:09:35.054-0300] {manager.py:737} INFO - Searching for files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-08T00:09:35.215-0300] {manager.py:740} INFO - There are 10 files in /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags
+[2024-05-08T00:09:59.180-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.51s           2024-05-08T03:09:42
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T03:09:48
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:09:45
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:09:44
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:09:50
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:09:47
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:09:34
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:09:51
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:09:52
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py                           0           1  0.10s           2024-05-08T03:09:35
+================================================================================
+[2024-05-08T00:10:29.521-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:10:13
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.30s           2024-05-08T03:10:16
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:10:14
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:10:17
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:10:23
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:10:05
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:10:22
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:10:18
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:10:21
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py                           0           1  0.10s           2024-05-08T03:10:26
+================================================================================
+[2024-05-08T00:11:00.303-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.71s           2024-05-08T03:10:44
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:10:45
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:10:49
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:10:48
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:10:35
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:10:51
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:10:46
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:10:54
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:10:53
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py                           0           1  0.10s           2024-05-08T03:10:57
+================================================================================
+[2024-05-08T00:11:30.606-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.70s           2024-05-08T03:11:15
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:11:16
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:11:06
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:11:20
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:11:24
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:11:25
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:11:23
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:11:19
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:11:18
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py                           0           1  0.20s           2024-05-08T03:11:28
+================================================================================
+[2024-05-08T00:12:01.478-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.61s           2024-05-08T03:11:46
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.21s           2024-05-08T03:11:47
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:11:50
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:11:37
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.20s           2024-05-08T03:11:56
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.20s           2024-05-08T03:11:51
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:11:49
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.20s           2024-05-08T03:11:55
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.20s           2024-05-08T03:11:54
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py                           0           1  0.10s           2024-05-08T03:11:59
+================================================================================
+[2024-05-08T00:12:32.538-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.80s           2024-05-08T03:12:17
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.30s           2024-05-08T03:12:18
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.30s           2024-05-08T03:12:25
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.30s           2024-05-08T03:12:27
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.30s           2024-05-08T03:12:26
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T03:12:22
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:12:08
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:12:20
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.20s           2024-05-08T03:12:21
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py                           0           1  0.10s           2024-05-08T03:12:30
+================================================================================
+[2024-05-08T00:13:03.383-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:12:48
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.30s           2024-05-08T03:12:52
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T03:12:54
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.30s           2024-05-08T03:12:58
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.30s           2024-05-08T03:12:56
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.30s           2024-05-08T03:12:57
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.20s           2024-05-08T03:12:49
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.20s           2024-05-08T03:12:39
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:12:51
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py                           0           1  0.10s           2024-05-08T03:13:01
+================================================================================
+[2024-05-08T00:13:34.211-0300] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py                                  1           0  0.60s           2024-05-08T03:13:19
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py                               1           0  0.30s           2024-05-08T03:13:20
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag.py                              1           0  0.30s           2024-05-08T03:13:29
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/Operator_dag.py                              1           0  0.30s           2024-05-08T03:13:23
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/first_dag.py                                 1           0  0.30s           2024-05-08T03:13:28
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dag_v2.py                           1           0  0.30s           2024-05-08T03:13:24
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/primeira_dagv1.py                            1           0  0.30s           2024-05-08T03:13:27
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py                             1           0  0.30s           2024-05-08T03:13:10
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/hook_dag.py                                  1           0  0.20s           2024-05-08T03:13:21
+/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/atividade01_dag.py                           0           1  0.20s           2024-05-08T03:13:12
+================================================================================
+[2024-05-08T00:14:04.484-0300] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15

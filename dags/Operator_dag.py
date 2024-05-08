@@ -15,7 +15,7 @@ with DAG(
     
     task1 = BashOperator(
         task_id="task1",
-        bash_command="echo 'Olha Mundo'"
+        bash_command="echo 'Ola Mundo'"
     )
     
     task2 = PythonOperator(

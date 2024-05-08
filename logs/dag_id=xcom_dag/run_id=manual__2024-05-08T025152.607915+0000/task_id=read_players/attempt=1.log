@@ -1,0 +1,55 @@
+[2024-05-07T23:51:55.397-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-07T23:51:55.425-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xcom_dag.read_players manual__2024-05-08T02:51:52.607915+00:00 [queued]>
+[2024-05-07T23:51:55.438-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xcom_dag.read_players manual__2024-05-08T02:51:52.607915+00:00 [queued]>
+[2024-05-07T23:51:55.439-0300] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-05-07T23:51:55.484-0300] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): read_players> on 2024-05-08 02:51:52.607915+00:00
+[2024-05-07T23:51:55.488-0300] {standard_task_runner.py:63} INFO - Started process 5807 to run task
+[2024-05-07T23:51:55.491-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'xcom_dag', 'read_players', 'manual__2024-05-08T02:51:52.607915+00:00', '--job-id', '1210', '--raw', '--subdir', 'DAGS_FOLDER/xcom_dag.py', '--cfg-path', '/tmp/tmp4nilzic8']
+[2024-05-07T23:51:55.493-0300] {standard_task_runner.py:91} INFO - Job 1210: Subtask read_players
+[2024-05-07T23:51:55.827-0300] {task_command.py:426} INFO - Running <TaskInstance: xcom_dag.read_players manual__2024-05-08T02:51:52.607915+00:00 [running]> on host PC-Tilto.
+[2024-05-07T23:51:56.020-0300] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='xcom_dag' AIRFLOW_CTX_TASK_ID='read_players' AIRFLOW_CTX_EXECUTION_DATE='2024-05-08T02:51:52.607915+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-08T02:51:52.607915+00:00'
+[2024-05-07T23:51:56.022-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-07T23:51:56.032-0300] {postgres.py:175} INFO - Running copy expert: COPY (SELECT * FROM players) TO stdout WITH CSV HEADER, filename: /mnt/c/Users/Tilto/Desktop/Work/Airflow//data/players.csv
+[2024-05-07T23:51:56.049-0300] {base.py:84} INFO - Using connection ID 'PG_SWORDBLAST' for task execution.
+[2024-05-07T23:53:51.296-0300] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-05-07T23:53:51.299-0300] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 5807. PIDs of all processes in the group: [5807]
+[2024-05-07T23:53:51.299-0300] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 5807
+[2024-05-07T23:53:54.684-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-07T23:53:54.707-0300] {taskinstance.py:2063} INFO - Dependencies not met for <TaskInstance: xcom_dag.read_players manual__2024-05-08T02:51:52.607915+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2024-05-07T23:53:54.708-0300] {taskinstance.py:2063} INFO - Dependencies not met for <TaskInstance: xcom_dag.read_players manual__2024-05-08T02:51:52.607915+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2024-05-07T23:53:54.709-0300] {local_task_job_runner.py:163} INFO - Task is not able to be run
+[2024-05-07T23:54:05.800-0300] {taskinstance.py:2607} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-05-07T23:54:05.801-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-07T23:54:05.816-0300] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/postgres/hooks/postgres.py", line 180, in copy_expert
+    with open(filename, "r+") as file, closing(self.get_conn()) as conn, closing(conn.cursor()) as cur:
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/postgres/hooks/postgres.py", line 161, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/usr/local/lib/python3.10/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "172.16.2.201", port 5432 failed: Connection timed out
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/xcom_dag.py", line 12, in read_players
+    pghook.copy_expert(
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/postgres/hooks/postgres.py", line 180, in copy_expert
+    with open(filename, "r+") as file, closing(self.get_conn()) as conn, closing(conn.cursor()) as cur:
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 2609, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-05-07T23:54:05.835-0300] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=xcom_dag, task_id=read_players, execution_date=20240508T025152, start_date=20240508T025402, end_date=20240508T025405

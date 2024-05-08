@@ -5,7 +5,7 @@ from airflow.providers.postgres.hooks.postgres import PostgresHook
 import pandas as pd
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 
-data = "/mnt/c/Users/Tilto/Desktop/Work/Airflow/data"
+data = "/mnt/c/Users/Tilto/Desktop/Work/Airflow/"
 
 def read_players():
     pghook = PostgresHook(postgres_conn_id="PG_SWORDBLAST")

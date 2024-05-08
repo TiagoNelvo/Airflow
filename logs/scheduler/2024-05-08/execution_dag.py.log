@@ -1,0 +1,863 @@
+[2024-05-07T23:42:06.045-0300] {processor.py:161} INFO - Started process (PID=2780) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:42:06.046-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:42:06.047-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:42:06.047-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:42:06.069-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:42:06.068-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:42:06.070-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:42:06.111-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.072 seconds
+[2024-05-07T23:42:36.234-0300] {processor.py:161} INFO - Started process (PID=3025) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:42:36.235-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:42:36.236-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:42:36.236-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:42:36.252-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:42:36.251-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:42:36.252-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:42:36.282-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.052 seconds
+[2024-05-07T23:43:06.962-0300] {processor.py:161} INFO - Started process (PID=3178) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:43:06.963-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:43:06.964-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:43:06.964-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:43:06.980-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:43:06.979-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:43:06.980-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:43:07.014-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.058 seconds
+[2024-05-07T23:43:37.507-0300] {processor.py:161} INFO - Started process (PID=3329) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:43:37.508-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:43:37.510-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:43:37.510-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:43:37.525-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:43:37.525-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:43:37.526-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:43:37.557-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.053 seconds
+[2024-05-07T23:44:07.686-0300] {processor.py:161} INFO - Started process (PID=3477) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:44:07.687-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:44:07.689-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:44:07.688-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:44:07.712-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:44:07.711-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:44:07.712-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:44:07.748-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.067 seconds
+[2024-05-07T23:44:38.666-0300] {processor.py:161} INFO - Started process (PID=3629) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:44:38.667-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:44:38.668-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:44:38.668-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:44:38.688-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:44:38.687-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:44:38.688-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:44:38.723-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.062 seconds
+[2024-05-07T23:45:09.159-0300] {processor.py:161} INFO - Started process (PID=3789) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:45:09.160-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:45:09.161-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:45:09.161-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:45:09.181-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:45:09.180-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:45:09.182-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:45:09.218-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.064 seconds
+[2024-05-07T23:45:39.737-0300] {processor.py:161} INFO - Started process (PID=3931) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:45:39.738-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:45:39.739-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:45:39.739-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:45:39.759-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:45:39.759-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:45:39.760-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:45:39.796-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.063 seconds
+[2024-05-07T23:46:10.680-0300] {processor.py:161} INFO - Started process (PID=4076) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:46:10.681-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:46:10.682-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:46:10.682-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:46:10.701-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:46:10.700-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:46:10.701-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:46:10.735-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.060 seconds
+[2024-05-07T23:46:41.322-0300] {processor.py:161} INFO - Started process (PID=4217) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:46:41.323-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:46:41.324-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:46:41.324-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:46:41.344-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:46:41.344-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:46:41.345-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:46:41.377-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.060 seconds
+[2024-05-07T23:47:11.849-0300] {processor.py:161} INFO - Started process (PID=4368) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:47:11.851-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:47:11.852-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:47:11.852-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:47:11.872-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:47:11.871-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:47:11.872-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:47:11.910-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.065 seconds
+[2024-05-07T23:47:42.141-0300] {processor.py:161} INFO - Started process (PID=4515) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:47:42.142-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:47:42.144-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:47:42.144-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:47:42.163-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:47:42.162-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:47:42.164-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:47:42.259-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.123 seconds
+[2024-05-07T23:48:12.772-0300] {processor.py:161} INFO - Started process (PID=4655) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:48:12.773-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:48:12.774-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:48:12.774-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:48:12.791-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:48:12.790-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:48:12.791-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:48:12.831-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.063 seconds
+[2024-05-07T23:48:15.662-0300] {processor.py:161} INFO - Started process (PID=4668) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:48:15.663-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:48:15.664-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:48:15.664-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:48:15.685-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:48:15.684-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 8
+    def task1():
+IndentationError: unexpected indent
+[2024-05-07T23:48:15.685-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:48:15.720-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.062 seconds
+[2024-05-07T23:48:33.020-0300] {processor.py:161} INFO - Started process (PID=4770) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:48:33.021-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:48:33.022-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:48:33.022-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:48:33.042-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:48:33.041-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 8
+    def task1():
+IndentationError: unexpected indent
+[2024-05-07T23:48:33.043-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:48:33.077-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.062 seconds
+[2024-05-07T23:49:03.225-0300] {processor.py:161} INFO - Started process (PID=4925) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:49:03.226-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:49:03.228-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:49:03.228-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:49:03.250-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:49:03.250-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 8
+    def task1():
+IndentationError: unexpected indent
+[2024-05-07T23:49:03.251-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:49:03.340-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.119 seconds
+[2024-05-07T23:49:34.087-0300] {processor.py:161} INFO - Started process (PID=5074) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:49:34.088-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:49:34.090-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:49:34.089-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:49:34.111-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:49:34.110-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 8
+    def task1():
+IndentationError: unexpected indent
+[2024-05-07T23:49:34.111-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:49:34.145-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.063 seconds
+[2024-05-07T23:50:04.349-0300] {processor.py:161} INFO - Started process (PID=5213) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:50:04.350-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:50:04.352-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:50:04.351-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:50:04.370-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:50:04.370-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 8
+    def task1():
+IndentationError: unexpected indent
+[2024-05-07T23:50:04.371-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:50:04.405-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.061 seconds
+[2024-05-07T23:51:35.245-0300] {processor.py:161} INFO - Started process (PID=5697) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:51:35.246-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:51:35.248-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:51:35.247-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:51:35.269-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:51:35.268-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 8
+    def task1():
+IndentationError: unexpected indent
+[2024-05-07T23:51:35.269-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:51:35.307-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.066 seconds
+[2024-05-07T23:54:00.525-0300] {processor.py:161} INFO - Started process (PID=6364) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:54:00.526-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:54:00.528-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:54:00.528-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:54:00.546-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:54:00.546-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 8
+    def task1():
+IndentationError: unexpected indent
+[2024-05-07T23:54:00.547-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:54:00.581-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.062 seconds
+[2024-05-07T23:55:16.079-0300] {processor.py:161} INFO - Started process (PID=6746) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:55:16.080-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:55:16.082-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:55:16.081-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:55:16.103-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:55:16.102-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 8
+    def task1():
+IndentationError: unexpected indent
+[2024-05-07T23:55:16.103-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:55:16.167-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.093 seconds
+[2024-05-07T23:57:31.844-0300] {processor.py:161} INFO - Started process (PID=7365) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:57:31.845-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:57:31.846-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:57:31.846-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:57:31.865-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:57:31.864-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 8
+    def task1():
+IndentationError: unexpected indent
+[2024-05-07T23:57:31.866-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:57:31.899-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.059 seconds
+[2024-05-07T23:58:02.311-0300] {processor.py:161} INFO - Started process (PID=7509) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:02.312-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:58:02.313-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:58:02.313-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:02.333-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:58:02.332-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 8
+    def task1():
+IndentationError: unexpected indent
+[2024-05-07T23:58:02.333-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:02.368-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.061 seconds
+[2024-05-07T23:58:32.975-0300] {processor.py:161} INFO - Started process (PID=7649) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:32.976-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:58:32.977-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:58:32.977-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:32.996-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:58:32.995-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 8
+    def task1():
+IndentationError: unexpected indent
+[2024-05-07T23:58:32.996-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:33.029-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.057 seconds
+[2024-05-07T23:58:51.807-0300] {processor.py:161} INFO - Started process (PID=7743) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:51.808-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:58:51.809-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:58:51.809-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:51.832-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:58:51.831-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:58:51.833-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:51.972-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.170 seconds
+[2024-05-07T23:58:53.114-0300] {processor.py:161} INFO - Started process (PID=7750) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:53.115-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:58:53.116-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:58:53.116-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:53.135-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:58:53.134-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 8
+    def task1():
+IndentationError: unexpected indent
+[2024-05-07T23:58:53.135-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:53.274-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.165 seconds
+[2024-05-07T23:58:59.949-0300] {processor.py:161} INFO - Started process (PID=7777) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:59.951-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:58:59.952-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:58:59.952-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:58:59.972-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:58:59.972-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 12
+    def task2():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:58:59.973-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:00.297-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.353 seconds
+[2024-05-07T23:59:01.745-0300] {processor.py:161} INFO - Started process (PID=7786) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:01.746-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:59:01.747-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:59:01.747-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:01.766-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:59:01.765-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 21
+    def task4():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:59:01.767-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:02.033-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.292 seconds
+[2024-05-07T23:59:03.441-0300] {processor.py:161} INFO - Started process (PID=7793) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:03.442-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:59:03.443-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:59:03.442-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:03.466-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:59:03.465-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 25
+    def task5():
+                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:59:03.467-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:03.621-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.186 seconds
+[2024-05-07T23:59:04.791-0300] {processor.py:161} INFO - Started process (PID=7799) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:04.792-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:59:04.793-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:59:04.793-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:04.830-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:59:04.829-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2 >> t3] >> t4 >> t5
+                                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:59:04.831-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:06.734-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 1.947 seconds
+[2024-05-07T23:59:10.148-0300] {processor.py:161} INFO - Started process (PID=7823) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:10.149-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:59:10.150-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:59:10.149-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:10.171-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:59:10.171-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2 >> t3] >> t4 >> t5
+                                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:59:10.172-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:17.137-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 6.994 seconds
+[2024-05-07T23:59:28.087-0300] {processor.py:161} INFO - Started process (PID=7941) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:28.088-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:59:28.090-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:59:28.089-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:28.111-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:59:28.110-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2 >> t3] >> t4 >> t5
+                                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:59:28.111-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:28.145-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.062 seconds
+[2024-05-07T23:59:58.438-0300] {processor.py:161} INFO - Started process (PID=8091) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:58.439-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-07T23:59:58.441-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:59:58.441-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:58.468-0300] {logging_mixin.py:188} INFO - [2024-05-07T23:59:58.467-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2 >> t3] >> t4 >> t5
+                                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-07T23:59:58.469-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-07T23:59:58.511-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.077 seconds
+[2024-05-08T00:00:28.896-0300] {processor.py:161} INFO - Started process (PID=8239) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:00:28.897-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:00:28.898-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:00:28.898-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:00:28.921-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:00:28.921-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2 >> t3] >> t4 >> t5
+                                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-08T00:00:28.922-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:00:28.959-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.068 seconds
+[2024-05-08T00:00:31.395-0300] {processor.py:161} INFO - Started process (PID=8250) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:00:31.396-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:00:31.398-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:00:31.397-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:00:31.417-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:00:31.416-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2, t3, t4] >> t5
+                            ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-08T00:00:31.417-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:00:31.450-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.059 seconds
+[2024-05-08T00:00:40.120-0300] {processor.py:161} INFO - Started process (PID=8317) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:00:40.121-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:00:40.122-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:00:40.122-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:00:40.144-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:00:40.143-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2, t3, t4] >> t5
+                            ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-08T00:00:40.144-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:00:40.180-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.064 seconds
+[2024-05-08T00:01:10.798-0300] {processor.py:161} INFO - Started process (PID=8472) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:01:10.799-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:01:10.800-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:01:10.800-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:01:10.819-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:01:10.819-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2, t3, t4] >> t5
+                            ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-08T00:01:10.820-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:01:10.853-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.059 seconds
+[2024-05-08T00:01:33.334-0300] {processor.py:161} INFO - Started process (PID=8581) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:01:33.335-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:01:33.336-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:01:33.336-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:01:33.359-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:01:33.359-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2, t3, t4]>> t5
+                           ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-08T00:01:33.360-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:01:33.403-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.074 seconds
+[2024-05-08T00:02:03.517-0300] {processor.py:161} INFO - Started process (PID=8720) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:02:03.518-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:02:03.519-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:02:03.519-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:02:03.542-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:02:03.542-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2, t3, t4]>> t5
+                           ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-08T00:02:03.543-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:02:03.598-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.087 seconds
+[2024-05-08T00:02:34.127-0300] {processor.py:161} INFO - Started process (PID=8913) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:02:34.129-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:02:34.130-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:02:34.130-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:02:34.151-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:02:34.150-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2, t3, t4]>> t5
+                           ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-08T00:02:34.152-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:02:34.190-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.069 seconds
+[2024-05-08T00:03:04.378-0300] {processor.py:161} INFO - Started process (PID=9092) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:03:04.379-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:03:04.382-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:03:04.381-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:03:04.396-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:03:04.396-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2, t3, t4]>> t5
+                           ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-08T00:03:04.397-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:03:04.429-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.056 seconds
+[2024-05-08T00:03:34.956-0300] {processor.py:161} INFO - Started process (PID=9234) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:03:34.957-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:03:34.958-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:03:34.958-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:03:34.976-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:03:34.975-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2, t3, t4]>> t5
+                           ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-08T00:03:34.976-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:03:35.046-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.095 seconds
+[2024-05-08T00:04:05.604-0300] {processor.py:161} INFO - Started process (PID=9375) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:04:05.605-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:04:05.606-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:05.606-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:04:05.620-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:05.619-0300] {dagbag.py:350} ERROR - Failed to import: /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py", line 57
+    t1 >> [t2, t3, t4]>> t5
+                           ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-08T00:04:05.620-0300] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:04:05.652-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.053 seconds
+[2024-05-08T00:04:13.142-0300] {processor.py:161} INFO - Started process (PID=9405) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:04:13.143-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:04:13.145-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:13.145-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:04:13.170-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:04:13.306-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:13.306-0300] {override.py:1829} INFO - Created Permission View: can delete on DAG:Execution_dag
+[2024-05-08T00:04:13.340-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:13.339-0300] {override.py:1829} INFO - Created Permission View: can read on DAG:Execution_dag
+[2024-05-08T00:04:13.371-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:13.371-0300] {override.py:1829} INFO - Created Permission View: can edit on DAG:Execution_dag
+[2024-05-08T00:04:13.372-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:13.372-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:04:13.387-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:13.387-0300] {dag.py:3118} INFO - Creating ORM DAG for Execution_dag
+[2024-05-08T00:04:13.388-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:13.388-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:04:13.556-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.420 seconds
+[2024-05-08T00:04:14.844-0300] {processor.py:161} INFO - Started process (PID=9413) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:04:14.845-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:04:14.846-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:14.846-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:04:14.875-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:04:14.887-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:14.887-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:04:14.900-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:14.900-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:04:14.984-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.147 seconds
+[2024-05-08T00:04:35.337-0300] {processor.py:161} INFO - Started process (PID=9548) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:04:35.338-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:04:35.339-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:35.339-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:04:35.362-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:04:35.375-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:35.375-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:04:35.390-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:04:35.390-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:04:35.448-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.115 seconds
+[2024-05-08T00:05:25.816-0300] {processor.py:161} INFO - Started process (PID=9785) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:05:25.817-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:05:25.819-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:05:25.818-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:05:25.841-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:05:25.975-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:05:25.975-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:05:25.987-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:05:25.987-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:05:26.053-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.242 seconds
+[2024-05-08T00:05:57.395-0300] {processor.py:161} INFO - Started process (PID=9939) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:05:57.396-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:05:57.398-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:05:57.397-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:05:57.421-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:05:57.448-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:05:57.448-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:05:57.463-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:05:57.462-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:05:57.553-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.163 seconds
+[2024-05-08T00:06:28.443-0300] {processor.py:161} INFO - Started process (PID=10085) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:06:28.444-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:06:28.445-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:06:28.445-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:06:28.466-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:06:28.497-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:06:28.497-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:06:28.510-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:06:28.510-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:06:28.569-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.131 seconds
+[2024-05-08T00:06:59.626-0300] {processor.py:161} INFO - Started process (PID=10229) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:06:59.627-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:06:59.628-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:06:59.628-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:06:59.648-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:06:59.675-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:06:59.674-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:06:59.686-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:06:59.686-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:06:59.742-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.121 seconds
+[2024-05-08T00:07:30.502-0300] {processor.py:161} INFO - Started process (PID=10373) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:07:30.503-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:07:30.505-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:07:30.504-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:07:30.529-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:07:30.556-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:07:30.556-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:07:30.569-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:07:30.568-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:07:30.629-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.133 seconds
+[2024-05-08T00:08:01.313-0300] {processor.py:161} INFO - Started process (PID=10514) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:08:01.314-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:08:01.316-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:08:01.316-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:08:01.357-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:08:01.397-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:08:01.397-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:08:01.418-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:08:01.417-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:08:01.516-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.209 seconds
+[2024-05-08T00:08:32.433-0300] {processor.py:161} INFO - Started process (PID=10657) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:08:32.434-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:08:32.435-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:08:32.435-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:08:32.457-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:08:32.487-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:08:32.487-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:08:32.503-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:08:32.502-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:08:32.567-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.139 seconds
+[2024-05-08T00:09:03.352-0300] {processor.py:161} INFO - Started process (PID=10798) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:09:03.353-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:09:03.355-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:09:03.354-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:09:03.375-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:09:03.402-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:09:03.402-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:09:03.414-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:09:03.413-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:09:03.471-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.123 seconds
+[2024-05-08T00:09:34.421-0300] {processor.py:161} INFO - Started process (PID=10944) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:09:34.422-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:09:34.423-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:09:34.423-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:09:34.443-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:09:34.469-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:09:34.469-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:09:34.482-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:09:34.482-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:09:34.548-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.132 seconds
+[2024-05-08T00:10:05.399-0300] {processor.py:161} INFO - Started process (PID=11086) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:10:05.400-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:10:05.401-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:10:05.401-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:10:05.421-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:10:05.447-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:10:05.447-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:10:05.460-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:10:05.460-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:10:05.519-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.125 seconds
+[2024-05-08T00:10:35.699-0300] {processor.py:161} INFO - Started process (PID=11228) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:10:35.700-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:10:35.702-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:10:35.702-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:10:35.723-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:10:35.751-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:10:35.751-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:10:35.764-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:10:35.763-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:10:35.825-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.131 seconds
+[2024-05-08T00:11:06.071-0300] {processor.py:161} INFO - Started process (PID=11368) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:11:06.072-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:11:06.074-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:11:06.074-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:11:06.093-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:11:06.119-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:11:06.119-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:11:06.132-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:11:06.132-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:11:06.191-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.124 seconds
+[2024-05-08T00:11:37.056-0300] {processor.py:161} INFO - Started process (PID=11511) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:11:37.057-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:11:37.058-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:11:37.058-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:11:37.079-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:11:37.112-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:11:37.111-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:11:37.126-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:11:37.126-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:11:37.190-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.138 seconds
+[2024-05-08T00:12:07.976-0300] {processor.py:161} INFO - Started process (PID=11654) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:12:07.977-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:12:07.979-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:12:07.978-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:12:08.000-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:12:08.028-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:12:08.028-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:12:08.040-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:12:08.040-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:12:08.101-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.129 seconds
+[2024-05-08T00:12:39.331-0300] {processor.py:161} INFO - Started process (PID=11798) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:12:39.333-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:12:39.335-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:12:39.334-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:12:39.363-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:12:39.393-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:12:39.393-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:12:39.407-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:12:39.406-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:12:39.473-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.148 seconds
+[2024-05-08T00:13:09.954-0300] {processor.py:161} INFO - Started process (PID=11940) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:13:09.955-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:13:09.957-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:09.957-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:13:09.977-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:13:10.003-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:10.002-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:13:10.016-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:10.016-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:13:10.139-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.189 seconds
+[2024-05-08T00:13:40.856-0300] {processor.py:161} INFO - Started process (PID=12082) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:13:40.857-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py for tasks to queue
+[2024-05-08T00:13:40.858-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:40.858-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:13:40.878-0300] {processor.py:840} INFO - DAG(s) 'Execution_dag' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py
+[2024-05-08T00:13:40.904-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:40.904-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T00:13:40.981-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:40.980-0300] {dag.py:3954} INFO - Setting next_dagrun for Execution_dag to None, run_after=None
+[2024-05-08T00:13:41.042-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/execution_dag.py took 0.190 seconds
