@@ -334,3 +334,304 @@
 [2024-05-08T00:13:51.097-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:51.097-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-05-08T00:13:51.171-0300] {logging_mixin.py:188} INFO - [2024-05-08T00:13:51.171-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
 [2024-05-08T00:13:51.233-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.187 seconds
+[2024-05-08T16:18:06.074-0300] {processor.py:161} INFO - Started process (PID=2718) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:18:06.075-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:18:06.078-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:18:06.078-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:18:06.118-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:18:06.141-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:18:06.140-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:18:06.161-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:18:06.161-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:18:06.283-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.216 seconds
+[2024-05-08T16:18:37.658-0300] {processor.py:161} INFO - Started process (PID=2867) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:18:37.659-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:18:37.661-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:18:37.661-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:18:37.683-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:18:37.801-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:18:37.801-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:18:37.815-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:18:37.815-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:18:37.892-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.239 seconds
+[2024-05-08T16:18:55.139-0300] {processor.py:161} INFO - Started process (PID=3012) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:18:55.140-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:18:55.141-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:18:55.141-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:18:55.163-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:18:55.175-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:18:55.175-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:18:55.187-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:18:55.187-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:18:55.245-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.110 seconds
+[2024-05-08T16:19:27.053-0300] {processor.py:161} INFO - Started process (PID=3238) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:19:27.054-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:19:27.056-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:19:27.055-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:19:27.075-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:19:27.176-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:19:27.176-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:19:27.186-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:19:27.186-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:19:27.245-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.196 seconds
+[2024-05-08T16:19:58.587-0300] {processor.py:161} INFO - Started process (PID=3388) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:19:58.588-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:19:58.589-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:19:58.589-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:19:58.610-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:19:58.639-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:19:58.638-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:19:58.651-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:19:58.650-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:19:58.712-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.130 seconds
+[2024-05-08T16:20:29.713-0300] {processor.py:161} INFO - Started process (PID=3538) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:20:29.714-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:20:29.715-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:20:29.715-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:20:29.735-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:20:29.761-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:20:29.761-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:20:29.776-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:20:29.775-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:20:29.851-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.142 seconds
+[2024-05-08T16:20:49.772-0300] {processor.py:161} INFO - Started process (PID=3685) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:20:49.773-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:20:49.774-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:20:49.774-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:20:49.796-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:20:49.810-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:20:49.810-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:20:49.823-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:20:49.823-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:20:49.881-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.115 seconds
+[2024-05-08T16:21:21.592-0300] {processor.py:161} INFO - Started process (PID=3840) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:21:21.593-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:21:21.594-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:21:21.594-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:21:21.612-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:21:21.710-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:21:21.710-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:21:21.721-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:21:21.721-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:21:21.775-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.187 seconds
+[2024-05-08T16:21:53.426-0300] {processor.py:161} INFO - Started process (PID=3987) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:21:53.427-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:21:53.428-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:21:53.428-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:21:53.445-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:21:53.473-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:21:53.472-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:21:53.489-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:21:53.488-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:21:53.590-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.168 seconds
+[2024-05-08T16:22:44.658-0300] {processor.py:161} INFO - Started process (PID=4336) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:22:44.658-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:22:44.660-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:22:44.660-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:22:44.682-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:22:44.694-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:22:44.694-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:22:44.708-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:22:44.707-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:22:44.772-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.118 seconds
+[2024-05-08T16:23:22.133-0300] {processor.py:161} INFO - Started process (PID=4521) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:23:22.135-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:23:22.138-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:23:22.137-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:23:22.194-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:23:22.476-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:23:22.475-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:23:22.500-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:23:22.500-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:23:22.774-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.659 seconds
+[2024-05-08T16:23:53.698-0300] {processor.py:161} INFO - Started process (PID=4668) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:23:53.699-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:23:53.701-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:23:53.701-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:23:53.722-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:23:53.749-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:23:53.749-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:23:53.764-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:23:53.764-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:23:53.832-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.138 seconds
+[2024-05-08T16:24:24.336-0300] {processor.py:161} INFO - Started process (PID=4813) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:24:24.337-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:24:24.339-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:24:24.338-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:24:24.359-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:24:24.384-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:24:24.384-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:24:24.396-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:24:24.396-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:24:24.455-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.123 seconds
+[2024-05-08T16:24:55.372-0300] {processor.py:161} INFO - Started process (PID=4957) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:24:55.373-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:24:55.375-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:24:55.375-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:24:55.396-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:24:55.423-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:24:55.422-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:24:55.435-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:24:55.435-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:24:55.494-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.127 seconds
+[2024-05-08T16:25:26.118-0300] {processor.py:161} INFO - Started process (PID=5100) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:25:26.119-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:25:26.120-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:25:26.120-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:25:26.141-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:25:26.167-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:25:26.166-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:25:26.179-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:25:26.178-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:25:26.239-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.126 seconds
+[2024-05-08T16:25:56.954-0300] {processor.py:161} INFO - Started process (PID=5246) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:25:56.955-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:25:56.957-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:25:56.956-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:25:56.979-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:25:57.005-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:25:57.005-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:25:57.018-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:25:57.018-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:25:57.103-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.155 seconds
+[2024-05-08T16:26:28.596-0300] {processor.py:161} INFO - Started process (PID=5393) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:26:28.597-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:26:28.599-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:26:28.598-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:26:28.621-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:26:28.647-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:26:28.647-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:26:28.661-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:26:28.660-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:26:28.722-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.130 seconds
+[2024-05-08T16:26:59.687-0300] {processor.py:161} INFO - Started process (PID=5540) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:26:59.688-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:26:59.689-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:26:59.689-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:26:59.709-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:26:59.734-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:26:59.734-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:26:59.748-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:26:59.748-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:26:59.867-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.184 seconds
+[2024-05-08T16:27:30.842-0300] {processor.py:161} INFO - Started process (PID=5686) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:27:30.843-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:27:30.845-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:27:30.844-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:27:30.867-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:27:30.893-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:27:30.893-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:27:30.907-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:27:30.907-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:27:30.970-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.133 seconds
+[2024-05-08T16:28:01.790-0300] {processor.py:161} INFO - Started process (PID=5832) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:28:01.791-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:28:01.793-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:28:01.792-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:28:01.817-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:28:01.846-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:28:01.846-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:28:01.859-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:28:01.858-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:28:01.930-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.144 seconds
+[2024-05-08T16:28:32.748-0300] {processor.py:161} INFO - Started process (PID=5978) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:28:32.749-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:28:32.751-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:28:32.751-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:28:32.771-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:28:32.802-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:28:32.802-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:28:32.816-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:28:32.816-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:28:32.878-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.134 seconds
+[2024-05-08T16:29:03.700-0300] {processor.py:161} INFO - Started process (PID=6122) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:29:03.701-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:29:03.703-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:29:03.702-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:29:03.725-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:29:03.749-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:29:03.749-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:29:03.762-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:29:03.761-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:29:03.900-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.204 seconds
+[2024-05-08T16:29:34.661-0300] {processor.py:161} INFO - Started process (PID=6266) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:29:34.662-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:29:34.664-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:29:34.663-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:29:34.685-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:29:34.712-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:29:34.712-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:29:34.725-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:29:34.725-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:29:34.789-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.134 seconds
+[2024-05-08T16:30:05.638-0300] {processor.py:161} INFO - Started process (PID=6424) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:30:05.640-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:30:05.641-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:30:05.641-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:30:05.662-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:30:05.689-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:30:05.689-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:30:05.702-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:30:05.702-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:30:05.765-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.132 seconds
+[2024-05-08T16:30:36.655-0300] {processor.py:161} INFO - Started process (PID=6568) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:30:36.656-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:30:36.658-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:30:36.657-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:30:36.679-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:30:36.705-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:30:36.704-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:30:36.717-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:30:36.717-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:30:36.811-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.161 seconds
+[2024-05-08T16:31:07.645-0300] {processor.py:161} INFO - Started process (PID=6712) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:31:07.646-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:31:07.648-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:31:07.648-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:31:07.668-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:31:07.693-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:31:07.693-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:31:07.707-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:31:07.707-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:31:07.834-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.193 seconds
+[2024-05-08T16:31:38.680-0300] {processor.py:161} INFO - Started process (PID=6856) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:31:38.681-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:31:38.683-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:31:38.682-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:31:38.704-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:31:38.729-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:31:38.729-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:31:38.806-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:31:38.806-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:31:38.867-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.192 seconds
+[2024-05-08T16:32:09.511-0300] {processor.py:161} INFO - Started process (PID=6999) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:32:09.512-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:32:09.513-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:32:09.513-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:32:09.534-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:32:09.561-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:32:09.561-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:32:09.640-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:32:09.640-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:32:09.701-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.195 seconds
+[2024-05-08T16:32:40.793-0300] {processor.py:161} INFO - Started process (PID=7144) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:32:40.794-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:32:40.796-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:32:40.795-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:32:40.817-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:32:40.908-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:32:40.908-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:32:40.921-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:32:40.921-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:32:40.980-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.191 seconds
+[2024-05-08T16:33:11.347-0300] {processor.py:161} INFO - Started process (PID=7286) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:33:11.348-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:33:11.351-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:33:11.350-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:33:11.442-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:33:11.465-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:33:11.465-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:33:11.477-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:33:11.477-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:33:11.540-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.197 seconds
+[2024-05-08T16:33:42.153-0300] {processor.py:161} INFO - Started process (PID=7429) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:33:42.154-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:33:42.155-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:33:42.155-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:33:42.173-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:33:42.199-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:33:42.199-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:33:42.210-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:33:42.210-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:33:42.268-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.120 seconds
+[2024-05-08T16:34:12.434-0300] {processor.py:161} INFO - Started process (PID=7571) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:34:12.435-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:34:12.436-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:34:12.436-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:34:12.458-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:34:12.486-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:34:12.486-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:34:12.499-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:34:12.499-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:34:12.563-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.133 seconds
+[2024-05-08T16:34:43.321-0300] {processor.py:161} INFO - Started process (PID=7714) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:34:43.322-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:34:43.324-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:34:43.323-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:34:43.340-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:34:43.363-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:34:43.363-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:34:43.379-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:34:43.379-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:34:43.669-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.352 seconds
+[2024-05-08T16:35:14.271-0300] {processor.py:161} INFO - Started process (PID=7859) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:35:14.272-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:35:14.274-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:35:14.273-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:35:14.293-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:35:14.320-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:35:14.320-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:35:14.336-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:35:14.335-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:35:14.394-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.130 seconds
+[2024-05-08T16:35:44.930-0300] {processor.py:161} INFO - Started process (PID=8001) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:35:44.931-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:35:44.933-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:35:44.932-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:35:44.956-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:35:44.983-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:35:44.983-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:35:44.999-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:35:44.998-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:35:45.143-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.218 seconds
+[2024-05-08T16:36:15.423-0300] {processor.py:161} INFO - Started process (PID=8143) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:36:15.424-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:36:15.425-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:36:15.425-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:36:15.443-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:36:15.467-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:36:15.466-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:36:15.479-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:36:15.479-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:36:15.537-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.119 seconds
+[2024-05-08T16:36:47.130-0300] {processor.py:161} INFO - Started process (PID=8290) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:36:47.131-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:36:47.133-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:36:47.133-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:36:47.157-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:36:47.188-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:36:47.187-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:36:47.202-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:36:47.201-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:36:47.267-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.142 seconds
+[2024-05-08T16:37:18.018-0300] {processor.py:161} INFO - Started process (PID=8434) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:37:18.020-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:37:18.022-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:37:18.021-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:37:18.044-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:37:18.076-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:37:18.075-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:37:18.090-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:37:18.090-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:37:18.169-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.155 seconds
+[2024-05-08T16:37:48.782-0300] {processor.py:161} INFO - Started process (PID=8576) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:37:48.782-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:37:48.785-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:37:48.784-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:37:48.805-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:37:48.830-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:37:48.830-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:37:48.843-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:37:48.843-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:37:48.904-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.126 seconds
+[2024-05-08T16:38:19.867-0300] {processor.py:161} INFO - Started process (PID=8721) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:38:19.868-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:38:19.870-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:38:19.870-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:38:19.895-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:38:19.928-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:38:19.928-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:38:19.943-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:38:19.943-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:38:20.008-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.147 seconds
+[2024-05-08T16:38:50.561-0300] {processor.py:161} INFO - Started process (PID=9034) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:38:50.562-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:38:50.564-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:38:50.564-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:38:50.585-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:38:50.611-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:38:50.611-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:38:50.625-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:38:50.624-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:38:50.687-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.131 seconds
+[2024-05-08T16:39:21.503-0300] {processor.py:161} INFO - Started process (PID=9178) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:39:21.504-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T16:39:21.505-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:39:21.505-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:39:21.526-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T16:39:21.553-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:39:21.553-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T16:39:21.566-0300] {logging_mixin.py:188} INFO - [2024-05-08T16:39:21.566-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T16:39:21.628-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.129 seconds
+[2024-05-08T17:55:49.921-0300] {processor.py:161} INFO - Started process (PID=27321) to work on /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T17:55:49.922-0300] {processor.py:830} INFO - Processing file /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py for tasks to queue
+[2024-05-08T17:55:49.924-0300] {logging_mixin.py:188} INFO - [2024-05-08T17:55:49.923-0300] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T17:55:49.943-0300] {processor.py:840} INFO - DAG(s) 'dag_exemplo' retrieved from /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py
+[2024-05-08T17:55:49.955-0300] {logging_mixin.py:188} INFO - [2024-05-08T17:55:49.955-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T17:55:49.967-0300] {logging_mixin.py:188} INFO - [2024-05-08T17:55:49.967-0300] {dag.py:3954} INFO - Setting next_dagrun for dag_exemplo to None, run_after=None
+[2024-05-08T17:55:50.031-0300] {processor.py:183} INFO - Processing /mnt/c/Users/Tilto/Desktop/Work/Airflow/dags/dag_exemplo.py took 0.114 seconds

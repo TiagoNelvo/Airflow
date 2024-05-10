@@ -1,12 +1,10 @@
-from datetime import datetime, timedelta
+from datetime import datetime
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.bash_operator import BashOperator
 from airflow.operators.postgres_operator import PostgresOperator
 from airflow.operators.postgres_hook import PostgresHook
-from airflow.operators.python_operator import BranchPythonOperator
-from airflow.utils.trigger_rule import TriggerRule
-import random
+
 
 AIRFLOW_HOME = "/mnt/c/Users/Tilto/Desktop/Work/Airflow/"
 
