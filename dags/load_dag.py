@@ -10,7 +10,7 @@ def read_fs():
     with open(AIRFLOW_HOME + '/data/data.txt', r) as f:
         for line in f:
             data = line.split(',')
-            print(f'{data[0]},{data[1]},{data[1]}')
+            print(f'{data[0]},{data[1]},{data[2]}')
 
 def read_pandas():
     df = pd.read_csv(AIRFLOW_HOME + '/data/data.csv')
