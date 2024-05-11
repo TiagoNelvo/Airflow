@@ -26,7 +26,9 @@ def processa_arquivo():
 
 
 with DAG(
-    dag_id="dag_exemplo", schedule_interval=None, start_date=datetime(2020, 1, 1)
+    dag_id="dag_exemplo",
+    schedule_interval=None,
+    start_date=datetime(2020, 1, 1)
 ) as dag:
 
     gera_arquivo = PythonOperator(task_id="gera_arquivo", python_callable=gera_arquivo)
