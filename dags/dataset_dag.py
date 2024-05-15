@@ -11,7 +11,7 @@ CHARACTERS = Dataset('file://' + AIRFLOW_HOME + '/data/characters.csv')
 def read_characters():
     pghook = PostgresHook(postgres_conn_id="PG_SWORDBLAST")
     pghook.copy_expert(
-        "COPY (SELECT * FROM characters WHERE characters_race = 'Fox') TO stdout WITH CSV HEADER",
+        "COPY (SELECT * FROM characters WHERE character_race = 'Fox') TO stdout WITH CSV HEADER",
         AIRFLOW_HOME + '/data/characters.csv'
     )
 
