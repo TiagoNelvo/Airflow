@@ -1,5 +1,4 @@
 from datetime import datetime
-
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
