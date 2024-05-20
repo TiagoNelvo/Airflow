@@ -4,13 +4,13 @@ from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 
 
-data = "/mnt/c/Users/Tilto/Desktop/Work/Airflow/data"
+AIRFLOW_HOME = "/mnt/c/Users/Tilto/Desktop/Work/Airflow/"
 
 def read_data():
     pghook = PostgresHook(postgres_conn_id="PG_SWORDBLAST")
     pghook.copy_expert(
         "COPY (SELECT * FROM characters) TO stdout WITH CSV HEADER",
-        data + "/characters.csv",
+        AIRFLOW_HOME + "/data/characters.csv",
     )
 
 def copy_data():
