@@ -39,7 +39,7 @@ with DAG(
         destination_conn_id='PG_SWORDBLAST',
         destination_table='fox_characters',
         sql="""
-            SELECT character_name, character_class, character_level FROM character WHERE character_race = 'Fox'
+            SELECT character_name, character_class, character_level FROM character WHERE characters_race = 'Fox'
         """
     )
 
@@ -50,4 +50,3 @@ with DAG(
     )
 
     task1 >> task2 >> task3
-    
