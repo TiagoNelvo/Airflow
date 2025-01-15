@@ -5,9 +5,6 @@ from airflow.decorators import task
 from airflow.models import Variable
 
 
-
-AIRFLOW_HOME = "/mnt/c/Users/Tilto/Desktop/Work/Airflow/"
-
 with DAG(
     dag_id="dag_variables",
     schedule_interval=None,
