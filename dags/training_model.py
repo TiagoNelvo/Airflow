@@ -20,9 +20,18 @@ def train_model(train_data, model_path):
     
     model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=1)
     model.fit(X_train,y_train)
+    
+    accuracy = model.score(X_test, y_test)
+    date_model = datetime.now().strftime('%Y-%m-%d-%H%M%S')
+    data_training = datetime.now().strftime('%Y-%m-%d-%H%M%S')
+    model_name = f'RndForest-{data_model}'
+    id = uuid.uuid4()
+    
     if not os.path.isdir(model_path):
         os.mkdir(model_path)
     pickle.dump(model, open(f'{model_path}/model.pkl','wb'))
+    
+    return id, model_name, date_model, accuracy
 
 
 

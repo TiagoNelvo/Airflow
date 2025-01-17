@@ -22,7 +22,25 @@ with DAG(
     @task
     def training_model():
         data = load_training_data('data/ml/training/train.csv')
-        train_model(data, 'data/ml/output')
+        id_model, model_name, date_model, accuracy = train_model(data, 'data/ml/output')
+        return {
+            'id':id_model,
+            'model_name':model_name,
+            'date': date_model,
+            'accuracy': accuracy
+        }
+        
+    save_metrics = PostgresOperator(
+         task_id='save_metrics',
+         postgres_conn_id='PG-ML',
+         sql="INSERT_INTO accuracy_metrics(model_name, evaluated_date,accuracy) VALUES "
+            "('{{ task_instance, scom_pull(tasks_ids='training_model')['model_name']}}')"
+            "('{{ task_instance, scom_pull(tasks_ids='training_model')['date']}}')"
+            "('{{ task_instance, scom_pull(tasks_ids='training_model')['accuracy']}}')"
+            
+         
+     )   
+        
         
     update_model = LocalFilesystemTos3Operator(
         asw_conn_id='AWS-SANDBOX',
@@ -37,7 +55,7 @@ with DAG(
     def cleanup():
         shutil.rmtree('data/ml', ignore_errors=True)
         
-    load_data() >> training_model() >> update_model() >> cleanup()
+    load_data() >> training_model() >> update_model() >> save_metrics() >> update_model() >> cleanup()
 
 
 
