@@ -24,40 +24,71 @@ with DAG(
         data = load_training_data('data/ml/training/train.csv')
         id_model, model_name, date_model, accuracy = train_model(data, 'data/ml/output')
         return {
-            'id':id_model,
+            'id':str(id_model),
             'model_name':model_name,
             'date': date_model,
             'accuracy': accuracy
         }
         
+    
+        
+    save_model = LocalFilesystemTos3Operator(
+        asw_conn_id='AWS-SANDBOX',
+        task_id='save_model',
+        filename='data/ml/output/{{task_instance.xcom_pull(task_ids='training_model')['model_name']}}.pkl',
+        dest_key='ml/output/history/{{task_instance.xcom_pull(task_ids='training_model')['model_name']}}.pkl',
+        dest_bucket='geekfox-sb-descomplica',
+        replace=True
+    )
+    
+        
     save_metrics = PostgresOperator(
          task_id='save_metrics',
          postgres_conn_id='PG-ML',
          sql="INSERT_INTO accuracy_metrics(model_name, evaluated_date,accuracy) VALUES "
-            "('{{ task_instance, scom_pull(tasks_ids='training_model')['model_name']}}')"
-            "('{{ task_instance, scom_pull(tasks_ids='training_model')['date']}}')"
-            "('{{ task_instance, scom_pull(tasks_ids='training_model')['accuracy']}}')"
+            "('{{ task_instance, scom_pull(task_ids='training_model')['model_name']}}')"
+            "('{{ task_instance, scom_pull(task_ids='training_model')['date']}}')"
+            "('{{ task_instance, scom_pull(task_ids='training_model')['accuracy']}}')"
             
-         
      )   
+        
+    @task
+    def compare_last_metric():
+        hook = PostgresOperator(postgres_conn_id='PG-ML')
+        data = hook.get_records(sql="SELECT * FROM accuracy_metrics ORDER BY evalueated_date DESC LIMIT 2")
+        if len(data) == 2:
+            if data[0][2] <= data[1][2]:
+                return['no_update']
+        return['update_model']
+        
         
         
     update_model = LocalFilesystemTos3Operator(
         asw_conn_id='AWS-SANDBOX',
         task_id='update_model',
-        filename='data/ml/output/model.pkl',
+        filename='data/ml/output/{{task_instance.xcom_pull(task_ids='training_model')['model_name']}}.pkl',
         dest_key='ml/output/model.pkl',
         dest_bucket='geekfox-sb-descomplica',
         replace=True
+    )
+    
+    no_update = EmptyOperator(
+        task_id='no_update'
     )
         
     @task(trigger_rule='all_done')
     def cleanup():
         shutil.rmtree('data/ml', ignore_errors=True)
         
-    load_data() >> training_model() >> update_model() >> save_metrics() >> update_model() >> cleanup()
-
-
+        
+    compare_metrics = compare_last_metric()
+        
+    load_data() >> training_model() >> [save_model(),save_metrics()] >> compare_metrics()
+    
+    cleanup_task = cleanup()
+    
+    compare_metrics() >> update_model() >> cleanup_task()
+    compare_metrics() >> no_update() >> cleanup_task()
 
 
 
