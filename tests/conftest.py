@@ -19,7 +19,10 @@ def test_dag():
     )
 
 
-
+@pytest.fixture(scope="module")
+def postgres_credentials():
+    PostgresCredentials = namedtuple("PostgresCredentials",["username","password"])
+    return PostgresCredentials("postgres", "nrVgCJDUP")
 
 
 

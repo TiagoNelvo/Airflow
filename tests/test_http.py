@@ -2,7 +2,7 @@ import pytest
 
 
 def test_http_operator(test_dag,mocker):
-    mocker.path.object(
+    mocker.patch.object(
         BaseHook,
         "get_connection",
         return_value=Connection(scheama="https",host="api.sunrise-sunset.org")
@@ -30,6 +30,25 @@ is_light = SimpleHttpOpreator(
 
 pytest.helpers.run_task(task=is_light, dag=test_dag)
 
+def test_postgresql(test_dag, mocker, postgres_credentials):
+    mocker.patch.object(
+        PostgresHook,
+        "get_connection",
+        return_value=Connection(
+            host="localhost",
+            conn_type="postgres",
+            login=postgres_credentials.username,
+            password=postgres_credentials.password
+        )
+    )
+
+task = PostgresOperator(
+    task_id="postgres_task",
+    postgres_conn_id="PG-SWORDBLAST",
+    sql="SELECT * FROM characters",
+    dag=test_dag
+)
 
 
+pytest.helpers.run_task(task, test_dag)
 
